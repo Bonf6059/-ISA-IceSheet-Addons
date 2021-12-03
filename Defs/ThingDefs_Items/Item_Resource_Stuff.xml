@@ -1,4 +1,7 @@
-  <ThingDef ParentName="WoolBase">
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<ThingDef ParentName="WoolBase">
     <defName>WoolRhino</defName>
     <label>rhino wool</label>
     <description>rhino's wool. It provides good insulation.</description>
@@ -14,3 +17,4 @@
       <color>(104,69,45)</color>
     </graphicData>
   </ThingDef>
+</Defs>
