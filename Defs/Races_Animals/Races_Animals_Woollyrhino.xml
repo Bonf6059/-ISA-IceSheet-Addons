@@ -10,8 +10,17 @@
       <MoveSpeed>5.0</MoveSpeed>
       <MarketValue>900</MarketValue>
       <ComfyTemperatureMin>-75</ComfyTemperatureMin>
+       <ComfyTemperatureMax>30</ComfyTemperatureMax>
       <FilthRate>20</FilthRate>
     </statBases>
+          <uiIconScale>1.25</uiIconScale>
+    <comps>
+      <li Class="CompProperties_Shearable">
+        <woolDef>WoolBison</woolDef>
+        <shearIntervalDays>15</shearIntervalDays>
+        <woolAmount>120</woolAmount>
+      </li>
+    </comps>
     <tools>
       <li>
         <label>horn</label>
