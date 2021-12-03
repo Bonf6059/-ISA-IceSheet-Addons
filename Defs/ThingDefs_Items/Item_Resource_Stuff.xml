@@ -1,0 +1,16 @@
+  <ThingDef ParentName="WoolBase">
+    <defName>WoolRhino</defName>
+    <label>rhino wool</label>
+    <description>rhino's wool. It provides good insulation.</description>
+    <statBases>
+      <StuffPower_Insulation_Cold>35</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(89,56,39)</color>
+      <commonality>0.15</commonality>
+    </stuffProps>
+    <graphicData>
+      <color>(104,69,45)</color>
+    </graphicData>
+  </ThingDef>
