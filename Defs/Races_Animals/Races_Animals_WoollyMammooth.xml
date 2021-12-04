@@ -1,18 +1,26 @@
 <?​xml​ version​=​"​1.0​"​ encoding​=​"​utf-8​"​ ?> 
  ​<​Defs​>
   <ThingDef ParentName="AnimalThingBase">
-    <defName>Elephant</defName>
-    <label>elephant</label>
+    <defName>Mammooth</defName>
+    <label>mammooth</label>
     <devNote>cow-1</devNote>
     <description>The largest unmodified land animal. Elephants has a long trunk they use to manipulate objects, and sharp tusks they use to gore attackers. A dead elephant's valuable tusks can be recovered by butchering it.\n\nIntelligent creatures with complex social relationships, elephants can be used as pack animals or trained to carry out the most complex of tasks. They live a long time, and are known to remember events and relationships from many decades before.</description>
     <statBases>
       <MoveSpeed>4.8</MoveSpeed>
-      <MarketValue>600</MarketValue>
-      <ComfyTemperatureMin>-12</ComfyTemperatureMin>
-      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <MarketValue>850</MarketValue>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+      <ComfyTemperatureMax>30</ComfyTemperatureMax>
       <FilthRate>24</FilthRate>
       <CaravanRidingSpeedFactor>1.3</CaravanRidingSpeedFactor>
     </statBases>
+<uiIconScale>1.25</uiIconScale>
+    <comps>
+      <li Class="CompProperties_Shearable">
+        <woolDef>WoolMammooth</woolDef>
+        <shearIntervalDays>15</shearIntervalDays>
+        <woolAmount>120</woolAmount>
+      </li>
+    </comps>
     <tools>
       <li>
         <label>tusk</label>
@@ -95,15 +103,15 @@
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Elephant</defName>
-    <label>elephant</label>
-    <race>Elephant</race>
+    <defName>Mammooth</defName>
+    <label>mammooth</label>
+    <race>Mammooth</race>
     <combatPower>260</combatPower>
     <ecoSystemWeight>2.0</ecoSystemWeight>
     <wildGroupSize>3~7</wildGroupSize>
     <lifeStages>
       <li>
-        <label>elephant calf</label>
+        <label>mammooth calf</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Elephant/Elephant</texPath>
           <color>(130,126,119)</color>
