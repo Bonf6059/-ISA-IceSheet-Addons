@@ -21,6 +21,11 @@
         <shearIntervalDays>15</shearIntervalDays>
         <woolAmount>120</woolAmount>
       </li>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Milk</milkDef>
+        <milkIntervalDays>5</milkIntervalDays>
+        <milkAmount>21</milkAmount>
+      </li>
     </comps>
     <tools>
       <li>
@@ -160,7 +165,7 @@
           <bodyPartGroup>TuskAttackTool</bodyPartGroup>
           <thing>ElephantTusk</thing>
           <allowFemale>false</allowFemale>
-        </butcherBodyPart>
+        </butcherBodyPart> 
       </li>
     </lifeStages>
   </PawnKindDef>
