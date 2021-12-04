@@ -154,6 +154,10 @@
           <texPath>Things/Pawn/Animal/Rhino/Dessicated_Rhino</texPath>
           <drawSize>3</drawSize>
         </dessicatedBodyGraphicData>
+        <butcherBodyPart>
+          <bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>WoollyRhinoHorn</thing>
+        </butcherBodyPart>
       </li>
     </lifeStages>
   </PawnKindDef>
