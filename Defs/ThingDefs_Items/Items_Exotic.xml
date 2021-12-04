@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="ResourceVerbBase">
-    <defName>WoollyRhinoTusk</defName>
-    <label>woolly rhino tusk</label>
-    <description>An elephant's tusk. It is very durable and valuable. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
+    <defName>WoollyRhinoHorn</defName>
+    <label>woolly rhino horn</label>
+    <description>A woolly rhino's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
     <graphicData>
-      <texPath>Things/Item/Special/ElephantTusk</texPath>
+      <texPath>Things/Item/Special/ThrumboHorn</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>-20</equippedAngleOffset>
     <statBases>
-      <MarketValue>120</MarketValue>
+      <MarketValue>800</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-      <Mass>1.8</Mass>
-      <Flammability>0.9</Flammability>
+      <Mass>3</Mass>
+      <Flammability>0.4</Flammability>
       <DeteriorationRate>0.5</DeteriorationRate>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
-    <relicChance>2</relicChance>
+    <relicChance>3</relicChance>
     <comps>
       <li Class="CompProperties_Styleable"></li>
     </comps>
@@ -33,7 +33,7 @@
           <li>Scratch</li>
           <li>Stab</li>
         </capacities>
-        <power>18.2</power>
+        <power>28</power>
         <cooldownTime>2.6</cooldownTime>
       </li>
       <li>
@@ -43,7 +43,6 @@
         </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
-        <chanceFactor>0.5</chanceFactor>
       </li>
     </tools>
     <thingCategories>
