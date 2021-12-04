@@ -27,12 +27,11 @@
       <baseHungerRate>0.28</baseHungerRate>
       <baseBodySize>0.60</baseBodySize>
       <baseHealthScale>0.40</baseHealthScale>
-      <foodType>VegetarianRoughAnimal</foodType>
+     <foodType>CarnivoreAnimal</foodType>
       <leatherDef>Leather_Bird</leatherDef>
       <trainability>None</trainability>
       <wildness>0.7</wildness>
       <roamMtbDays>7</roamMtbDays>
-      <foodType>CarnivoreAnimal</foodType>
       <mateMtbHours>8</mateMtbHours>
       <lifeExpectancy>8</lifeExpectancy>
       <useMeatFrom>Cassowary</useMeatFrom>
