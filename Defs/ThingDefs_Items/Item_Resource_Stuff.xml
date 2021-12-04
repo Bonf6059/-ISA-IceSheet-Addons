@@ -17,4 +17,21 @@
       <color>(104,69,45)</color>
     </graphicData>
   </ThingDef>
+
+<ThingDef ParentName="WoolBase">
+    <defName>WoolMammooth</defName>
+    <label>Mammooth wool</label>
+    <description>mammooth's wool. It provides good insulation.</description>
+    <statBases>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(89,56,39)</color>
+      <commonality>0.18</commonality>
+    </stuffProps>
+    <graphicData>
+      <color>(89,56,39)</color>
+    </graphicData>
+  </ThingDef>
 </Defs>
