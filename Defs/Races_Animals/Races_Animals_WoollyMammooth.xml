@@ -1,3 +1,6 @@
+   
+ ​<?​xml​ version​=​"​1.0​"​ encoding​=​"​utf-8​"​ ?> 
+ ​<​Defs​>
   <ThingDef ParentName="AnimalThingBase">
     <defName>Elephant</defName>
     <label>elephant</label>
@@ -153,3 +156,4 @@
       </li>
     </lifeStages>
   </PawnKindDef>
+</Defs>
