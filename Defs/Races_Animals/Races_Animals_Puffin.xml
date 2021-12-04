@@ -10,7 +10,7 @@
       <MoveSpeed>2.3</MoveSpeed>
       <MarketValue>90</MarketValue>
       <LeatherAmount>36</LeatherAmount>
-      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
       <FilthRate>6</FilthRate>
     </statBases>
     <comps>
@@ -32,6 +32,7 @@
       <trainability>None</trainability>
       <wildness>0.7</wildness>
       <roamMtbDays>7</roamMtbDays>
+      <foodType>CarnivoreAnimalStrict</foodType>
       <mateMtbHours>8</mateMtbHours>
       <lifeExpectancy>8</lifeExpectancy>
       <useMeatFrom>Cassowary</useMeatFrom>
