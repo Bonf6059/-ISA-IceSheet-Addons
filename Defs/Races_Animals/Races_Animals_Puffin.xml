@@ -35,12 +35,6 @@
       <foodType>CarnivoreAnimal</foodType>
       <mateMtbHours>8</mateMtbHours>
       <lifeExpectancy>8</lifeExpectancy>
-      <wildBiomes>
-	<ColdBog>0.01</ColdBog>
-	<SeaIce>0.005</SeaIce>
-	<IceSheet>0.05</IceSheet>
-	<Tundra>0.02</Tundra>
-		</wildBiomes>
       <useMeatFrom>Cassowary</useMeatFrom>
       <lifeStageAges>
         <li>
