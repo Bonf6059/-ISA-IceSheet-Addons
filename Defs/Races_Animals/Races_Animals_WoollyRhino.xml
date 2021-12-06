@@ -115,9 +115,8 @@
     <wildGroupSize>1~4</wildGroupSize>
     <wildBiomes>
       <SeaIce>0.1</SeaIce>
-      <IceSheet>0.7</IceSheet>
+      <IceSheet>0.8</IceSheet>
       <Tundra>0.35</Tundra>
-      <BorealForest>0.15</BorealForest>
     </wildBiomes>
     <lifeStages>
       <li>
@@ -163,7 +162,7 @@
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
-          <thing>WoollyRhinoHorn</thing>
+          <thing>ISA_WoollyRhinoHorn</thing>
         </butcherBodyPart>
       </li>
     </lifeStages>
