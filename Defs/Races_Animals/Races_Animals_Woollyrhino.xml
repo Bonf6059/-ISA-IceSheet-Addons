@@ -76,6 +76,7 @@
       <nameOnTameChance>1</nameOnTameChance>
       <lifeExpectancy>45</lifeExpectancy>
       <herdAnimal>true</herdAnimal>
+      <packAnimal>true</packAnimal>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
