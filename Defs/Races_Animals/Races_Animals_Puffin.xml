@@ -2,7 +2,7 @@
 <Defs>
   
 <ThingDef ParentName="AnimalThingBase">
-    <defName>Puffin</defName>
+    <defName>ISA_Puffin</defName>
     <label>puffin</label>
     <devNote>chicken-1</devNote>
     <description>A domesticated bird kept by humans as poultry for it's eggs and meat. Lays eggs very often, however they take a long time to hatch.</description>
@@ -16,8 +16,8 @@
     </statBases>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>EggPuffinUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>EggPuffinFertilized</eggFertilizedDef>
+        <eggUnfertilizedDef>ISA_EggPuffinUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>ISA_EggPuffinFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>3</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
@@ -44,10 +44,10 @@
         <li>
           <def>AnimalBabyTiny</def>
           <minAge>0</minAge>
-          <soundWounded>Pawn_Chick_Call</soundWounded>
-          <soundDeath>Pawn_Chick_Call</soundDeath>
-          <soundCall>Pawn_Chick_Call</soundCall>
-          <soundAngry>Pawn_Chick_Call</soundAngry>
+		<soundWounded>AEXP_Pawn_Penguin_Wounded</soundWounded>
+		<soundDeath>AEXP_Pawn_Penguin_Death</soundDeath>
+		<soundCall>AEXP_Pawn_Penguin_Call</soundCall>
+		<soundAngry>AEXP_Pawn_Penguin_Angry</soundAngry>
         </li>
         <li>
           <def>AnimalJuvenile</def>
@@ -103,7 +103,7 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Puffin</defName>
+    <defName>ISA_Puffin</defName>
     <label>puffin</label>
     <labelPlural>puffins</labelPlural>
     <wildGroupSize>
