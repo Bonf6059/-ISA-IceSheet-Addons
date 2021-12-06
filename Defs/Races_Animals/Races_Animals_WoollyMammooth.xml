@@ -16,15 +16,10 @@
     </statBases>
 <uiIconScale>1.25</uiIconScale>
     <comps>
-<!--      <li Class="CompProperties_Shearable">
-        <woolDef>WoolMammooth</woolDef>
-        <shearIntervalDays>15</shearIntervalDays>
-        <woolAmount>120</woolAmount>
-      </li>                                         --!>
       <li Class="CompProperties_Milkable">
         <milkDef>Milk</milkDef>
-        <milkIntervalDays>5</milkIntervalDays>
-        <milkAmount>21</milkAmount>
+        <milkIntervalDays>7</milkIntervalDays>
+        <milkAmount>32</milkAmount>
       </li>
     </comps>
     <tools>
