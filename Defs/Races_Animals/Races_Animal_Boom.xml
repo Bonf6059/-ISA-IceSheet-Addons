@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-  <!-- Boomaseal -->
-  <defName>ISA_Boomaseal</defName>  
 </Defs>
-    <comps>
-      <li Class="CompProperties_Milkable">
-        <milkDef>Chemfuel</milkDef>
-        <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>6</milkAmount>
-        <milkFemaleOnly>false</milkFemaleOnly>
-      </li>
-    </comps>
-<!-- ======================= Seal =============================== -->
+<!-- ======================= Boomaseal =============================== -->
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>AEXP_Seal</defName>
-		<label>seal</label>
+		<defName>ISA_Boomaseal</defName>
+		<label>boomaseal</label>
 		<description>A medium sized semi-aquatic mammal, which only comes ashore to eat, mate and escape from predators. Being an aggresive hunter, seals are capable of tackling much bigger prey and are known for cannibalism if the food is scarce.</description>
 		<statBases>
 			<MoveSpeed>2.2</MoveSpeed>
@@ -25,6 +15,15 @@
 			<ComfyTemperatureMax>20</ComfyTemperatureMax>
 			<FilthRate>4</FilthRate>
 		</statBases>
+		<uiIconScale>1.25</uiIconScale>
+		<comps>
+      		  <li Class="CompProperties_Milkable">
+                    <milkDef>Chemfuel</milkDef>
+                    <milkIntervalDays>1</milkIntervalDays>
+     		    <milkAmount>6</milkAmount>
+    		    <milkFemaleOnly>false</milkFemaleOnly>
+    		  </li>
+    		</comps>
 		<tools>
 			<li>
 				<label>left fore-flipper</label>
@@ -120,9 +119,9 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>AEXP_Seal</defName>
-		<label>seal</label>
-		<race>AEXP_Seal</race>
+		<defName>ISA_Boomaseal</defName>
+		<label>boomaseal</label>
+		<race>ISA_Boomaseal</race>
 		<combatPower>65</combatPower>
 		<ecoSystemWeight>0.40</ecoSystemWeight>
 		<lifeStages>
