@@ -112,6 +112,12 @@
     <combatPower>270</combatPower>
     <ecoSystemWeight>1.5</ecoSystemWeight>
     <wildGroupSize>1~4</wildGroupSize>
+    <wildBiomes>
+      <SeaIce>0.1</SeaIce>
+      <IceSheet>0.7</IceSheet>
+      <Tundra>0.35</Tundra>
+      <BorealForest>0.15</BorealForest>
+    </wildBiomes>
     <lifeStages>
       <li>
         <bodyGraphicData>
