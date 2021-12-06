@@ -111,9 +111,9 @@
     <ecoSystemWeight>2.0</ecoSystemWeight>
     <wildGroupSize>3~7</wildGroupSize>
     <wildBiomes>
-      <SeaIce>0.15</SeaIce>
-      <IceSheet>0.7</IceSheet>
-      <Tundra>0.3</Tundra>
+      <IceSheet>0.3</IceSheet>
+      <Tundra>0.6</Tundra>
+      <BorealForest>0.5</BorealForest>
     </wildBiomes>
     <lifeStages>
       <li>
