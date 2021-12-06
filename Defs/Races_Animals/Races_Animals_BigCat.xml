@@ -4,18 +4,27 @@
   <ThingDef ParentName="BigCatThingBase">
     <defName>Cavelion</defName>
     <label>cave lion</label>
-    <description>An agile and powerful big cat native to the jungles of old Earth. As solitary ambush predators, panthers are masters of taking down both large and small prey. Onlookers tend to focus on their graceful movements, while those in closer contact usually notice their skull-crushing strength.</description>
+    <description>An agile and powerful relative of the modern lions. An ambush predator, are masters of taking down both large and small prey. Onlookers tend to focus on their graceful movements, while those in closer contact usually notice their skull-crushing strength.</description>
     <statBases>
-      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
-      <ComfyTemperatureMax>25</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-45</ComfyTemperatureMin>
+      <ComfyTemperatureMax>35</ComfyTemperatureMax>
       <FilthRate>2</FilthRate>
     </statBases>
+    <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="BigCatKindBase">
     <defName>Cavelion</defName>
     <label>cave lion</label>
     <race>Cavelion</race>
+    <wildBiomes>
+			<IceSheet>0.3</IceSheet>
+      <Tundra>0.5</Tundra>
+      <BorealForest>0.7</BorealForest>
+      <TemperateForest>0.2</TemperateForest>
+		</wildBiomes>
     <lifeStages>
       <li>
         <bodyGraphicData>
