@@ -107,18 +107,18 @@
     <label>puffin</label>
     <labelPlural>puffins</labelPlural>
     <wildGroupSize>
-			<min>2</min>
-			<max>5</max>
-		</wildGroupSize>
+	    <min>2</min>
+	    <max>5</max>
+    </wildGroupSize>
     <race>Puffin</race>
     <combatPower>35</combatPower>
     <ecoSystemWeight>0.20</ecoSystemWeight>
     <wildBiomes>
-			<SeaIce>0.1</SeaIce>
-			<IceSheet>0.5</IceSheet>
+      <SeaIce>0.1</SeaIce>
+      <IceSheet>0.5</IceSheet>
       <Tundra>1</Tundra>
       <BorealForest>0.7</BorealForest>
-		</wildBiomes>
+    </wildBiomes>
     <lifeStages>
       <li>
         <bodyGraphicData>
