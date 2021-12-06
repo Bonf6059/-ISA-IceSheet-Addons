@@ -6,8 +6,8 @@
     <label>cave lion</label>
     <description>An agile and powerful relative of the modern lions. An ambush predator, are masters of taking down both large and small prey. Onlookers tend to focus on their graceful movements, while those in closer contact usually notice their skull-crushing strength.</description>
     <statBases>
-      <ComfyTemperatureMin>-45</ComfyTemperatureMin>
-      <ComfyTemperatureMax>35</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <FilthRate>2</FilthRate>
     </statBases>
     <tradeTags>
