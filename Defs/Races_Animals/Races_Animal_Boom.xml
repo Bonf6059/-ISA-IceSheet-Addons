@@ -4,6 +4,14 @@
   <!-- Boomaseal -->
   <defName>ISA_Boomaseal</defName>  
 </Defs>
+    <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Chemfuel</milkDef>
+        <milkIntervalDays>1</milkIntervalDays>
+        <milkAmount>6</milkAmount>
+        <milkFemaleOnly>false</milkFemaleOnly>
+      </li>
+    </comps>
 <!-- ======================= Seal =============================== -->
 
 	<ThingDef ParentName="AnimalThingBase">
