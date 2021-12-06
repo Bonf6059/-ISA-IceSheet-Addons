@@ -11,7 +11,7 @@
       <FilthRate>2</FilthRate>
     </statBases>
     <tradeTags>
-      <li>AnimalExotic</li>
+      <li>AnimalUncommon</li>
     </tradeTags>
   </ThingDef>
 
@@ -20,11 +20,11 @@
     <label>cave lion</label>
     <race>Cavelion</race>
     <wildBiomes>
-			<IceSheet>0.3</IceSheet>
+      <IceSheet>0.3</IceSheet>
       <Tundra>0.5</Tundra>
       <BorealForest>0.7</BorealForest>
       <TemperateForest>0.2</TemperateForest>
-		</wildBiomes>
+    </wildBiomes>
     <lifeStages>
       <li>
         <bodyGraphicData>
