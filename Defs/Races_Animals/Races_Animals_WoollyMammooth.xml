@@ -100,7 +100,7 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>AnimalUncommon</li>
+      <li>AnimalExotic</li>
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
@@ -110,6 +110,11 @@
     <combatPower>260</combatPower>
     <ecoSystemWeight>2.0</ecoSystemWeight>
     <wildGroupSize>3~7</wildGroupSize>
+    <wildBiomes>
+      <SeaIce>0.15</SeaIce>
+      <IceSheet>0.7</IceSheet>
+      <Tundra>0.3</Tundra>
+    </wildBiomes>
     <lifeStages>
       <li>
         <label>mammooth calf</label>
