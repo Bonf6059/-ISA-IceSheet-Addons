@@ -10,7 +10,7 @@
       <MoveSpeed>2.3</MoveSpeed>
       <MarketValue>90</MarketValue>
       <LeatherAmount>36</LeatherAmount>
-      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <ComfyTemperatureMin>-45</ComfyTemperatureMin>
       <ComfyTemperatureMin>30</ComfyTemperatureMin>
       <FilthRate>6</FilthRate>
     </statBases>
