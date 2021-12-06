@@ -11,6 +11,7 @@
       <MarketValue>90</MarketValue>
       <LeatherAmount>36</LeatherAmount>
       <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <ComfyTemperatureMin>30</ComfyTemperatureMin>
       <FilthRate>6</FilthRate>
     </statBases>
     <comps>
@@ -34,7 +35,7 @@
      <foodType>CarnivoreAnimal</foodType>
       <leatherDef>Leather_Bird</leatherDef>
       <trainability>None</trainability>
-      <wildness>0.7</wildness>
+      <wildness>0.4</wildness>
       <roamMtbDays>7</roamMtbDays>
       <mateMtbHours>8</mateMtbHours>
       <lifeExpectancy>8</lifeExpectancy>
@@ -66,8 +67,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>AnimalCommon</li>
-      <li>AnimalFarm</li>
+      <li>AnimalUncommon</li>
     </tradeTags>
     <tools>
       <li>
@@ -106,9 +106,19 @@
     <defName>Puffin</defName>
     <label>puffin</label>
     <labelPlural>puffins</labelPlural>
+    <wildGroupSize>
+			<min>2</min>
+			<max>5</max>
+		</wildGroupSize>
     <race>Puffin</race>
     <combatPower>35</combatPower>
-    <ecoSystemWeight>0.30</ecoSystemWeight>
+    <ecoSystemWeight>0.20</ecoSystemWeight>
+    <wildBiomes>
+			<SeaIce>0.1</SeaIce>
+			<IceSheet>0.5</IceSheet>
+      <Tundra>1</Tundra>
+      <BorealForest>0.7</BorealForest>
+		</wildBiomes>
     <lifeStages>
       <li>
         <bodyGraphicData>
