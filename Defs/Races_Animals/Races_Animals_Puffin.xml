@@ -23,7 +23,7 @@
         <eggCountRange>1</eggCountRange>
       </li>
     	<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
-    		<customThingToDig>RawFish</customThingToDig>
+    		<customThingToDig>AEXP_RawFish</customThingToDig>
     		<customAmountToDig>10</customAmountToDig>
     	</li>
     </comps>
