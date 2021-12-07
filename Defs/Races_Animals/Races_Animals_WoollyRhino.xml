@@ -17,7 +17,7 @@
     <comps>
       <li Class="CompProperties_Shearable">
         <woolDef>ISA_WoolRhino</woolDef>
-        <shearIntervalDays>15</shearIntervalDays>
+        <shearIntervalDays>0.5</shearIntervalDays>
         <woolAmount>120</woolAmount>
       </li>
     </comps>
