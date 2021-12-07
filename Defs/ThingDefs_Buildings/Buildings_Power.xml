@@ -1,7 +1,10 @@
-  <ThingDef ParentName="BuildingBase">
-    <defName>ChemfuelPoweredGenerator</defName>
-    <label>chemfuel powered generator</label>
-    <description>Produces power by consuming chemfuel. Must be periodically refueled by hand.</description>
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+    <defName>ISABiofuelPoweredGenerator</defName>
+    <label>biofuel powered generator</label>
+    <description>Produces power by consuming biofuel. Must be periodically refueled by hand.</description>
     <thingClass>Building</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
@@ -44,11 +47,11 @@
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>4.5</fuelConsumptionRate>
+        <fuelConsumptionRate>3</fuelConsumptionRate>
         <fuelCapacity>30.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
-            <li>Chemfuel</li>
+            <li>ISABiofuel</li>
           </thingDefs>
         </fuelFilter>
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -80,5 +83,7 @@
     <researchPrerequisites>
       <li>Electricity</li>
     </researchPrerequisites>
-    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </ThingDef>
+
+</Defs>
