@@ -2,7 +2,7 @@
 <Defs>
 
 <RecipeDef>
-    <defName>Make_BiofuelFromWood</defName>
+    <defName>Make_ISABiofuelFromWood</defName>
     <label>make biofuel from wood</label>
     <description>Make a batch of biofuel by extracting and condensing wood gas from logs.</description>
     <jobString>Refining biofuel from wood.</jobString>
@@ -26,12 +26,12 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Biofuel>35</Biofuel>
+      <ISABiofuel>35</ISABiofuel>
     </products>
   </RecipeDef>
 
   <RecipeDef>
-    <defName>Make_BiofuelFromOrganics</defName>
+    <defName>Make_ISABiofuelFromOrganics</defName>
     <label>make biofuel from organics</label>
     <description>Make a batch of biofuel by extracting it from organic feedstocks.</description>
     <jobString>Refining biofuel from organics.</jobString>
@@ -63,9 +63,6 @@
         <li>Foods</li>
         <li>PlantMatter</li>
       </categories>
-      <disallowedThingDefs>
-        <li>Hay</li>
-      </disallowedThingDefs>
       <disallowedCategories>
         <li>FoodMeals</li>
       </disallowedCategories>
@@ -80,7 +77,7 @@
       </disallowedCategories>
     </defaultIngredientFilter>
     <products>
-      <Biofuel>35</Biofuel>
+      <ISABiofuel>35</ISABiofuel>
     </products>
   </RecipeDef>
 </Defs>
