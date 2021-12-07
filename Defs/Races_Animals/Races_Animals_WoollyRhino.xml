@@ -98,6 +98,11 @@
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <wildBiomes>
+        <SeaIce>0.1</SeaIce>
+        <IceSheet>0.8</IceSheet>
+        <Tundra>0.35</Tundra>
+      </wildBiomes>
     </race>
     <tradeTags>
       <li>AnimalUncommon</li>
@@ -113,11 +118,6 @@
     <combatPower>270</combatPower>
     <ecoSystemWeight>1.5</ecoSystemWeight>
     <wildGroupSize>1~4</wildGroupSize>
-    <wildBiomes>
-      <SeaIce>0.1</SeaIce>
-      <IceSheet>0.8</IceSheet>
-      <Tundra>0.35</Tundra>
-    </wildBiomes>
     <lifeStages>
       <li>
         <bodyGraphicData>
