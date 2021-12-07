@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>IceSheet Addons & More</name>
+    <name>IceSheet Addons</name>
 <description>This mod adds various animals to the game, with a bunch of other stuff</description>
     <author>Bonfa6059</author>
     <supportedVersions>
@@ -23,5 +23,5 @@
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
         <li>VanillaExpanded.VAEIS</li>
 	</loadAfter>
-    <packageId>nicolo1213.IceSheetAddons&More</packageId>
+    <packageId>nicolo1213.IceSheetAddons</packageId>
 </ModMetaData>
