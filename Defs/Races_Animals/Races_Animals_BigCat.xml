@@ -25,7 +25,7 @@
   <PawnKindDef ParentName="BigCatKindBase">
     <defName>ISA_Cavelion</defName>
     <label>cave lion</label>
-    <race>Cave lion</race>
+    <race>ISA_Cavelion</race>
     <lifeStages>
       <li>
         <bodyGraphicData>
