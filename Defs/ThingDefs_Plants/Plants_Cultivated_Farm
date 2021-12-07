@@ -2,14 +2,13 @@
 <Defs>
 
   <!--=========================== Food crops ==============================-->
-
   <ThingDef ParentName="PlantBase">
-    <defName>Plant_Rice</defName>
-    <label>rice plant</label>
+    <defName>ISAPlant_Carrot</defName>
+    <label>carrot plant</label>
     <description>A short, fast-growing crop that yields small edible grains. Its great nutritional output and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <Nutrition>0.175</Nutrition>
+      <Nutrition>0.25</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/RicePlant</texPath>
@@ -19,15 +18,17 @@
     <pathCost>14</pathCost>
     <ingestible />
     <plant>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
       <maxMeshCount>4</maxMeshCount>
       <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>RawRice</harvestedThingDef>
-      <harvestYield>6</harvestYield>
+      <harvestedThingDef>ISARawCarrot</harvestedThingDef>
+      <harvestYield>5</harvestYield>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
       </sowTags>
+      <harvestFailable>false</harvestFailable>
       <topWindExposure>0.1</topWindExposure>
       <growDays>3</growDays>
       <visualSizeRange>0.3~0.8</visualSizeRange>
@@ -36,12 +37,11 @@
       <humanFoodPlant>true</humanFoodPlant>
     </plant>
   </ThingDef>
-  
   <!--=========================== Drug crops ==============================-->
   
   <ThingDef ParentName="PlantBase">
-    <defName>Plant_Hops</defName>
-    <label>hop plant</label>
+    <defName>ISAPlant_Grapes</defName>
+    <label>grape plant</label>
     <description>A flowering crop that yields hops, an essential ingredient in beer.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
@@ -59,7 +59,7 @@
       <growDays>5</growDays>
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>RawHops</harvestedThingDef>
+      <harvestedThingDef>ISARawGrape</harvestedThingDef>
       <harvestYield>8</harvestYield>
       <sowMinSkill>3</sowMinSkill>
       <sowTags>
