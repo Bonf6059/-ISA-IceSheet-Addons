@@ -32,7 +32,7 @@
       <baseHungerRate>0.28</baseHungerRate>
       <baseBodySize>0.60</baseBodySize>
       <baseHealthScale>0.40</baseHealthScale>
-     <foodType>CarnivoreAnimal</foodType>
+      <foodType>CarnivoreAnimal</foodType>
       <leatherDef>Leather_Bird</leatherDef>
       <trainability>None</trainability>
       <wildness>0.4</wildness>
@@ -65,6 +65,11 @@
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <wildBiomes>
+        <IceSheet>0.5</IceSheet>
+        <Tundra>1</Tundra>
+        <BorealForest>0.7</BorealForest>
+      </wildBiomes>
     </race>
     <tradeTags>
       <li>AnimalUncommon</li>
@@ -113,11 +118,6 @@
     <race>Puffin</race>
     <combatPower>35</combatPower>
     <ecoSystemWeight>0.20</ecoSystemWeight>
-    <wildBiomes>
-      <IceSheet>0.5</IceSheet>
-      <Tundra>1</Tundra>
-      <BorealForest>0.7</BorealForest>
-    </wildBiomes>
     <lifeStages>
       <li>
         <bodyGraphicData>
