@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<HediffDef ParentName="ImplantHediffBase">
+    <defName>ISABionicInsulator</defName>
+    <label>bionic insulator</label>
+    <labelNoun>a bionic insulator</labelNoun>
+    <description>An installed bionic insulator.</description>
+    <descriptionHyperlinks><ThingDef>ISABionicInsulator</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>ISABionicInsulator</spawnThingOnRemoved>
+    <comps>
+      
+    </comps>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartBase">
+    <defName>ISABionicInsulator</defName>
+    <label>bionic insulator</label>
+    <description>A chest implant for being able to withstand harsh temperatures.</description>
+    <descriptionHyperlinks><RecipeDef>InstallISABionicInsulator</RecipeDef></descriptionHyperlinks>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(189,169,118)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>400</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>BodyPartsBionic</li>
+    </thingCategories>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallISABionicInsulator</defName>
+    <label>install bionic insulator</label>
+    <description>Install a bionic insulator.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ISABionicInsulator</ThingDef>
+      <HediffDef>ISABionicInsulator</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing bionic insulator.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ISABionicInsulator</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ISABionicInsulator</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ISABionicInsulator</addsHediff>
+  </RecipeDef>
+
+</Defs>
