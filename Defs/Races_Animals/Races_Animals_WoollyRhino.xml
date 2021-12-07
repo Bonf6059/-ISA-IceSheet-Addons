@@ -16,7 +16,7 @@
           <uiIconScale>1.25</uiIconScale>
     <comps>
       <li Class="CompProperties_Shearable">
-        <woolDef>ISA_WoolRhino</woolDef>
+        <woolDef>ISA_WoollyRhino</woolDef>
         <shearIntervalDays>15</shearIntervalDays>
         <woolAmount>120</woolAmount>
       </li>
@@ -114,7 +114,7 @@
     <defName>ISA_WoollyRhino</defName>
     <label>woolly rhino</label>
     <labelPlural>woolly rhinos</labelPlural>
-    <race>WoollyRhino</race>
+    <race>ISA_WoollyRhino</race>
     <combatPower>270</combatPower>
     <ecoSystemWeight>1.5</ecoSystemWeight>
     <wildGroupSize>1~4</wildGroupSize>
