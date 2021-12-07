@@ -115,7 +115,7 @@
 	    <min>2</min>
 	    <max>5</max>
     </wildGroupSize>
-    <race>Puffin</race>
+    <race>ISA_Puffin</race>
     <combatPower>35</combatPower>
     <ecoSystemWeight>0.20</ecoSystemWeight>
     <lifeStages>
