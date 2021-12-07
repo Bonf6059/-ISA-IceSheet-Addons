@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RecipeDef>
+    <defName>Make_BiofuelFromWood</defName>
+    <label>make biofuel from wood</label>
+    <description>Make a batch of biofuel by extracting and condensing wood gas from logs.</description>
+    <jobString>Refining biofuel from wood.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Biofuel>35</Biofuel>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Make_BiofuelFromOrganics</defName>
+    <label>make biofuel from organics</label>
+    <description>Make a batch of biofuel by extracting it from organic feedstocks.</description>
+    <jobString>Refining biofuel from organics.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2700</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Foods</li>
+            <li>PlantMatter</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Hay</li>
+          </disallowedThingDefs>
+          <disallowedCategories>
+            <li>FoodMeals</li>
+          </disallowedCategories>
+        </filter>
+        <count>3.5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Foods</li>
+        <li>PlantMatter</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Hay</li>
+      </disallowedThingDefs>
+      <disallowedCategories>
+        <li>FoodMeals</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedCategories>
+        <li>MeatRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </defaultIngredientFilter>
+    <products>
+      <Biofuel>35</Biofuel>
+    </products>
+  </RecipeDef>
+</Defs>
