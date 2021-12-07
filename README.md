@@ -9,6 +9,7 @@ da aggiungere:
 -patch?
 -?
                         Idee
+-rimettere a 15 giorni la lana del woollyrhino
 -aggiungere recipe neutroammina (5 chemfuel, 20 psychoid leaves al druglab, sbloccato da/dopo biofuel refinery)
 -aggiungere crushed thrumbo horn (craftabile allo smithing table 1 x 3, sbloccato da angeloterium)
 -add angeloterium (tipo luciferium ma non uccide, craftabile con neutroammina, yayo, crushed thrumbo horn al druglab, withdrawl catatonic breakdown, sbloccato da/dopo medicinemaker)
