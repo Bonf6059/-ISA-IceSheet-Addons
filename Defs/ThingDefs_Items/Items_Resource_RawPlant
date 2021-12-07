@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- RawFood -->
+
+<ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawPotatoes</defName>
+    <label>carrots</label>
+    <description>Raw carrots.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Potatoes</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+<!-- RawDrugs -->
+
+<ThingDef ParentName="RoughPlantBase">
+    <defName>RawGrape</defName>
+    <label>grapes</label>
+    <description>Raw grapes. A flavoring and preserving agent that is necessary for making wine.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Hops</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+  </ThingDef>
+  
+</Defs>
