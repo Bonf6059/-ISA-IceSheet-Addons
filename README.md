@@ -7,7 +7,9 @@ da aggiungere:
 -vestiti
 -bionics
 -patch?
+
                         Idee
+                        
 -rimettere a 15 giorni la lana del woollyrhino
 
 -aggiungere recipe neutroammina (5 chemfuel, 20 psychoid leaves al druglab, sbloccato da/dopo biofuel refinery)
