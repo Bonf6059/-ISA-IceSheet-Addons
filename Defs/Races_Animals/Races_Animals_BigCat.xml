@@ -10,6 +10,13 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <FilthRate>2</FilthRate>
     </statBases>
+    <race>
+      <wildBiomes>
+        <Tundra>0.5</Tundra>
+        <BorealForest>0.7</BorealForest>
+        <TemperateForest>0.2</TemperateForest>
+      </wildBiomes>
+    </race>
     <tradeTags>
       <li>AnimalUncommon</li>
     </tradeTags>
@@ -19,11 +26,6 @@
     <defName>ISA_Cavelion</defName>
     <label>cave lion</label>
     <race>Cave lion</race>
-    <wildBiomes>
-      <Tundra>0.5</Tundra>
-      <BorealForest>0.7</BorealForest>
-      <TemperateForest>0.2</TemperateForest>
-    </wildBiomes>
     <lifeStages>
       <li>
         <bodyGraphicData>
