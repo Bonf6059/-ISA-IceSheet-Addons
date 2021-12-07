@@ -48,9 +48,6 @@
             <li>Foods</li>
             <li>PlantMatter</li>
           </categories>
-          <disallowedThingDefs>
-            <li>Hay</li>
-          </disallowedThingDefs>
           <disallowedCategories>
             <li>FoodMeals</li>
           </disallowedCategories>
