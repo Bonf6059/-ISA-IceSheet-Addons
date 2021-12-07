@@ -98,6 +98,11 @@
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <wildBiomes>
+        <IceSheet>0.3</IceSheet>
+        <Tundra>0.6</Tundra>
+        <BorealForest>0.5</BorealForest>
+      </wildBiomes>
     </race>
     <tradeTags>
       <li>AnimalUncommon</li>
@@ -110,11 +115,6 @@
     <combatPower>260</combatPower>
     <ecoSystemWeight>2.0</ecoSystemWeight>
     <wildGroupSize>3~7</wildGroupSize>
-    <wildBiomes>
-      <IceSheet>0.3</IceSheet>
-      <Tundra>0.6</Tundra>
-      <BorealForest>0.5</BorealForest>
-    </wildBiomes>
     <lifeStages>
       <li>
         <label>mammooth calf</label>
