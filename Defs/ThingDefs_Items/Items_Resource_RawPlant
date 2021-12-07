@@ -4,7 +4,7 @@
 <!-- RawFood -->
 
 <ThingDef ParentName="PlantFoodRawBase">
-    <defName>ISARawPotatoes</defName>
+    <defName>ISARawCarrot</defName>
     <label>carrots</label>
     <description>Raw carrots.</description>
     <graphicData>
