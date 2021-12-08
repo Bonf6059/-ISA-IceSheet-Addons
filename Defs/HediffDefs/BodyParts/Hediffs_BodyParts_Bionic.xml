@@ -14,9 +14,15 @@
       <solid>true</solid>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
-    <statOffsets>
-    	<ComfyTemperatureMin>-20</ComfyTemperatureMin>  
-    </statOffsets>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Heat>0.4</ArmorRating_Heat>
+		      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+		      <ComfyTemperatureMax>20</ComfyTemperatureMax>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <ThingDef ParentName="BodyPartBionicBase">
