@@ -30,6 +30,9 @@
     <statBases>
       <Mass>0.3</Mass>
     </statBases>
+    <thingCategories>
+      <li>BodyPartsBionic</li>
+    </thingCategories>
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
