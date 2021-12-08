@@ -12,9 +12,11 @@
     <displayWound>true</displayWound>
     <addedPartProps>
       <solid>true</solid>
-      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
-			<betterThanNatural>true</betterThanNatural>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
+    <statOffsets>
+    	<ComfyTemperatureMin>-20</ComfyTemperatureMin>  
+    </statOffsets>
   </HediffDef>
 
   <ThingDef ParentName="BodyPartBionicBase">
