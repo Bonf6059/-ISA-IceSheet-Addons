@@ -40,6 +40,9 @@
       </li>
     </comps>
     <allowedArchonexusCount>100</allowedArchonexusCount>
+    <costList>
+      <PlantMatter>20</PlantMatter>
+    </costList>
     <recipeMaker>
       <researchPrerequisite>BiofuelRefining</researchPrerequisite>
       <recipeUsers>
@@ -47,7 +50,6 @@
       </recipeUsers>
       <soundWorking>Recipe_Drug</soundWorking>
     </recipeMaker>
-
   </ThingDef>
 
  </Defs>
