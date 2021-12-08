@@ -18,8 +18,7 @@
       <li>
         <statOffsets>
           <ArmorRating_Heat>0.4</ArmorRating_Heat>
-		      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
-		      <ComfyTemperatureMax>20</ComfyTemperatureMax>
+          <ComfyTemperatureMin>-36</ComfyTemperatureMin>
         </statOffsets>
       </li>
     </stages>
