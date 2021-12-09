@@ -3,7 +3,7 @@
 
   <!--=========================== Food crops ==============================-->
   <ThingDef ParentName="PlantBase">
-    <defName>ISAPlant_Carrot</defName>
+    <defName>ISA_Plant_Carrot</defName>
     <label>carrot plant</label>
     <description>A short, fast-growing crop that yields small edible grains. Its great nutritional output and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil.</description>
     <statBases>
@@ -22,7 +22,7 @@
       <dieIfLeafless>true</dieIfLeafless>
       <maxMeshCount>4</maxMeshCount>
       <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>ISARawCarrot</harvestedThingDef>
+      <harvestedThingDef>ISA_RawCarrot</harvestedThingDef>
       <harvestYield>5</harvestYield>
       <sowTags>
         <li>Ground</li>
@@ -40,7 +40,7 @@
   <!--=========================== Drug crops ==============================-->
   
   <ThingDef ParentName="PlantBase">
-    <defName>ISAPlant_Grapes</defName>
+    <defName>ISA_Plant_Grapes</defName>
     <label>grape plant</label>
     <description>A flowering crop that yields hops, an essential ingredient in beer.</description>
     <statBases>
@@ -59,7 +59,7 @@
       <growDays>5</growDays>
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>ISARawGrape</harvestedThingDef>
+      <harvestedThingDef>ISA_RawGrape</harvestedThingDef>
       <harvestYield>8</harvestYield>
       <sowMinSkill>3</sowMinSkill>
       <sowTags>
