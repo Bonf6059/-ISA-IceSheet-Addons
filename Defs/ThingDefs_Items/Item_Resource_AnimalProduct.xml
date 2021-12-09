@@ -65,11 +65,11 @@
     </graphicData>
     <statBases>
       <Nutrition>0.05</Nutrition>
-      <MarketValue>3.0</MarketValue>
+      <MarketValue>5.0</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>6.5</hatcherDaystoHatch>
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
         <hatcherPawn>ISA_Gigaspider</hatcherPawn>
       </li>
     </comps>
@@ -78,7 +78,7 @@
 <ThingDef ParentName="WoolBase">
     <defName>ISA_SpiderSilk</defName>
     <label>gigaspider silk</label>
-    <description>gigaspider's wool. It provides little insulation but is valuable.</description>
+    <description>gigaspider's silk. It provides little insulation but is valuable.</description>
     <statBases>
       <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
@@ -116,6 +116,28 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>3</hatcherDaystoHatch>
+        <hatcherPawn>ISA_Gigascarab</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+  <!-- Gigabeetle -->
+  <ThingDef ParentName="EggFertBase">
+    <defName>ISA_EggGigabeetleFertilized</defName>
+    <label>gigabeetle egg (fert.)</label>
+    <description>A fertilized gigabeetle egg. If all goes well, it should hatch into a baby gigaspider. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(245,245,245)</color>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.07</Nutrition>
+      <MarketValue>4</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>7</hatcherDaystoHatch>
         <hatcherPawn>ISA_Gigascarab</hatcherPawn>
       </li>
     </comps>
