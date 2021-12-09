@@ -2,7 +2,7 @@
 <Defs>
 
 <RecipeDef>
-    <defName>Make_ISABiofuelFromWood</defName>
+    <defName>ISA_MakeBiofuelFromWood</defName>
     <label>make biofuel</label>
     <description>Make a batch of bone ash by burning bones at high temperatures.</description>
     <jobString>Making biofuel.</jobString>
@@ -32,7 +32,7 @@
   </RecipeDef>
     
   <RecipeDef>
-    <defName>Make_ISABiofuelFromOrganics</defName>
+    <defName>ISA_MakeBiofuelFromOrganics</defName>
     <label>make biofuel from organics</label>
     <description>Make a batch of biofuel by extracting it from organic feedstocks.</description>
     <jobString>Refining biofuel from organics.</jobString>
@@ -75,7 +75,7 @@
       </disallowedCategories>
     </defaultIngredientFilter>
     <products>
-      <ISABiofuel>35</ISABiofuel>
+      <ISA_Biofuel>35</ISA_Biofuel>
     </products>
   </RecipeDef>
 </Defs>
