@@ -2,14 +2,12 @@
 <Defs>
 
   <ThingDef ParentName="PlantBase">
-    <defName>ISA_Plant_Armillarix</defName>
-    <label>armillarix</label>
-    <thingClass>VFEI.Other.VFEI_Plant_Armillarix</thingClass>
+    <defName>ISAPlant_Calidumix</defName>
+    <label>calidumix</label>
     <description>A medium sized mushroom. When fully matured, its cap spreads open to release an inner bulb that emits very hard light, bright enough to grow other crops around it.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <Nutrition>0.2</Nutrition>
-      <Beauty>4</Beauty>
     </statBases>
     <graphicData>
       <texPath>Things/Armillarix/AMature</texPath>
@@ -21,7 +19,6 @@
     <plant>
       <neverBlightable>true</neverBlightable>
       <growMinGlow>0</growMinGlow>
-      <growOptimalGlow>0</growOptimalGlow>
       <fertilitySensitivity>0.15</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
@@ -41,11 +38,15 @@
       <immatureGraphicPath>Things/Armillarix/AImmature</immatureGraphicPath>
     </plant>
     <comps>
-      <li Class="CompProperties_Glower">
-        <glowRadius>3</glowRadius>
-        <glowColor>(370,370,370,0)</glowColor>
-        <overlightRadius>7.0</overlightRadius>
-      </li>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+
+    <li Class="CompProperties_HeatPusher">
+      <compClass>CompHeatPusherPowered</compClass>
+      <heatPerSecond>3.5</heatPerSecond>
+      <heatPushMaxTemperature>30</heatPushMaxTemperature>
+    </li>
     </comps>
   </ThingDef>
 
