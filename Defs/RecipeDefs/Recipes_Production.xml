@@ -3,9 +3,9 @@
 
 <RecipeDef>
     <defName>Make_ISABiofuelFromWood</defName>
-    <label>make biofuel from wood</label>
-    <description>Make a batch of biofuel by extracting and condensing wood gas from logs.</description>
-    <jobString>Refining biofuel from wood.</jobString>
+    <label>make biofuel</label>
+    <description>Make a batch of bone ash by burning bones at high temperatures.</description>
+    <jobString>Making biofuel.</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>2200</workAmount>
@@ -14,22 +14,23 @@
       <li>
         <filter>
           <thingDefs>
-            <li>WoodLog</li>
+            <li>Wood</li>
           </thingDefs>
         </filter>
-        <count>70</count>
+        <count>20</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WoodLog</li>
+        <li>Wood</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <ISABiofuel>35</ISABiofuel>
+      <Wood>20</Wood>
     </products>
+    <researchPrerequisite>BiofuelRefining</researchPrerequisite>
   </RecipeDef>
-
+    
   <RecipeDef>
     <defName>Make_ISABiofuelFromOrganics</defName>
     <label>make biofuel from organics</label>
