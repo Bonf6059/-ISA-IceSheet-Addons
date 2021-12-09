@@ -4,12 +4,12 @@
   
   <!-- Insulator Cold -->
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>ISABionicInsulatorCold</defName>
+    <defName>ISA_BionicInsulatorCold</defName>
     <label>bionic cold insulator</label>
     <labelNoun>a bionic that protects from the cold</labelNoun>
     <description>An installed bionic cold insulator.</description>
-    <descriptionHyperlinks><ThingDef>ISABionicInsulatorCold</ThingDef></descriptionHyperlinks>
-    <spawnThingOnRemoved>ISABionicInsulatorCold</spawnThingOnRemoved>
+    <descriptionHyperlinks><ThingDef>ISA_BionicInsulatorCold</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>ISA_BionicInsulatorCold</spawnThingOnRemoved>
     <woundAnchorRange>0</woundAnchorRange>
     <displayWound>true</displayWound>
     <addedPartProps>
@@ -27,10 +27,10 @@
   </HediffDef>
 
   <ThingDef ParentName="BodyPartBionicBase">
-    <defName>ISABionicInsulatorCold</defName>
+    <defName>ISA_BionicInsulatorCold</defName>
     <label>bionic cold insulator</label>
     <description>An advanced artificial eye. With its biogel nerve-link, internal signal pre-processor, and wide-spectrum sensors, it is better than a biological eye in almost every way. A lattice-dust healing system allows it to recover from damage.</description>
-    <descriptionHyperlinks><RecipeDef>ISABionicInsulatorCold</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks><RecipeDef>ISA_BionicInsulatorCold</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>30</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
@@ -43,19 +43,19 @@
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-    <defName>InstallISABionicInsulatorCold</defName>
+    <defName>InstallISA_BionicInsulatorCold</defName>
     <label>install bionic insulator</label>
     <description>Install a bionic insulator.</description>
     <descriptionHyperlinks>
-      <ThingDef>ISABionicInsulatorCold</ThingDef>
-      <HediffDef>ISABionicInsulatorCold</HediffDef>
+      <ThingDef>ISA_BionicInsulatorCold</ThingDef>
+      <HediffDef>ISA_BionicInsulatorCold</HediffDef>
     </descriptionHyperlinks>
     <jobString>Installing bionic cold insulator.</jobString>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>ISABionicInsulatorCold</li>
+            <li>ISA_BionicInsulatorCold</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -63,13 +63,13 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>ISABionicInsulatorCold</li>
+        <li>ISA_BionicInsulatorCold</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Torso</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>ISABionicInsulatorCold</addsHediff>
+    <addsHediff>ISA_BionicInsulatorCold</addsHediff>
     <incompatibleWithHediffTags>
       <li>ArmorGland</li>
     </incompatibleWithHediffTags>
@@ -78,11 +78,11 @@
   
   <!-- Insulator hot-->
   <HediffDef ParentName="ImplantHediffBase">
-    <defName>ISABionicInsulatorHot</defName>
+    <defName>ISA_BionicInsulatorHot</defName>
     <label>bionic hot insulator</label>
     <description>Installed bionic hot insulator.</description>
-    <descriptionHyperlinks><ThingDef>ISABionicInsulatorHot</ThingDef></descriptionHyperlinks>
-    <spawnThingOnRemoved>ISABionicInsulatorHot</spawnThingOnRemoved>
+    <descriptionHyperlinks><ThingDef>ISA_BionicInsulatorHot</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>ISA_BionicInsulatorHot</spawnThingOnRemoved>
     <stages>
       <li>
         <statOffsets>
@@ -94,10 +94,10 @@
   </HediffDef>
 
   <ThingDef ParentName="BodyPartBionicBase">
-    <defName>ISABionicInsulatorHot</defName>
+    <defName>ISA_BionicInsulatorHot</defName>
     <label>bionic hot insulator</label>
     <description>This small patch of artificial skin quickly spreads to cover the user's body. Archotech skin resists pressure changes and offers complete immunity to vaccum depressurization, as well as providing significant armor and temperature insulation. In conjunction with archotech lungs, it offers the ability to survive vacuum indefinitely. It looks and feels like natural flesh, but is harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
-    <descriptionHyperlinks><RecipeDef>InstallISABionicInsulatorHot</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks><RecipeDef>InstallISA_BionicInsulatorHot</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>30</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
@@ -109,19 +109,19 @@
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallImplantBase">
-    <defName>InstallISABionicInsulatorHot</defName>
+    <defName>InstallISA_BionicInsulatorHot</defName>
     <label>install bionic hot insulator</label>
     <description>Install bionic hot insulator.</description>
     <descriptionHyperlinks>
-      <ThingDef>ISABionicInsulatorHot</ThingDef>
-      <HediffDef>ISABionicInsulatorHot</HediffDef>
+      <ThingDef>ISA_BionicInsulatorHot</ThingDef>
+      <HediffDef>ISA_BionicInsulatorHot</HediffDef>
     </descriptionHyperlinks>
     <jobString>Installing bionic hot insulator.</jobString>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>ISABionicInsulatorHot</li>
+            <li>ISA_BionicInsulatorHot</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -129,28 +129,28 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>ISABionicInsulatorHot</li>
+        <li>ISA_BionicInsulatorHot</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Torso</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>ISABionicInsulatorHot</addsHediff>
+    <addsHediff>ISA_BionicInsulatorHot</addsHediff>
     <incompatibleWithHediffTags>
       <li>ArmorGland</li>
     </incompatibleWithHediffTags>
   </RecipeDef>
   
   <RecipeDef ParentName="SurgeryRemoveImplantBase">
-    <defName>RemoveISABionicInsulatorHot</defName>
+    <defName>RemoveISA_BionicInsulatorHot</defName>
     <label>remove bionic hot insulator</label>
     <description>Remove bionic hot insulator.</description>
     <descriptionHyperlinks>
-      <ThingDef>ISABionicInsulatorHot</ThingDef>
-      <HediffDef>ISABionicInsulatorHot</HediffDef>
+      <ThingDef>ISA_BionicInsulatorHot</ThingDef>
+      <HediffDef>ISA_BionicInsulatorHot</HediffDef>
     </descriptionHyperlinks>
     <jobString>Removing bionic hot insulator.</jobString>
-    <removesHediff>ISABionicInsulatorHot</removesHediff>
+    <removesHediff>ISA_BionicInsulatorHot</removesHediff>
   </RecipeDef>
   
 </Defs>
