@@ -29,7 +29,7 @@
 <ThingDef ParentName="RoughPlantBase">
     <defName>ISA_RawGrape</defName>
     <label>grapes</label>
-    <description>Raw grapes. A flavoring and preserving agent that is necessary for making wine.</description>
+    <description>Raw grapes. It is necessary for making wine.</description>
     <graphicData>
       <texPath>Things/Item/Resource/PlantFoodRaw/Hops</texPath>
     </graphicData>
