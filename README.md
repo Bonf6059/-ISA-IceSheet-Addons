@@ -26,5 +26,7 @@ da aggiungere:
 
 -add armored warm clothes
 
+-mining/skills related bionics, archotechs? prostetichs?
+
                        Scartabili
 -aggiungere angel dust (thrumbo horn + psycoid leaves al druglab o crafting spot, aumenta capacità fisiche pain-50 moving+10 manipulation+5 diminuisce coscienza -10%, ne produce 5 per corno, stesso withdrawl di yayo)
