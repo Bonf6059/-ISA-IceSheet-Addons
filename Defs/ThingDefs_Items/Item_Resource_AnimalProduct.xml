@@ -54,4 +54,49 @@
     </graphicData>
   </ThingDef>
   
+  <!-- Gigaspider -->
+  <ThingDef ParentName="EggFertBase">
+    <defName>ISA_EggGigaspiderFertilized</defName>
+    <label>gigaspider egg (fert.)</label>
+    <description>A fertilized gigaspider egg. If all goes well, it should hatch into a baby gigaspider. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(245,245,245)</color>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.05</Nutrition>
+      <MarketValue>3.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>6.5</hatcherDaystoHatch>
+        <hatcherPawn>ISA_Gigaspider</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+<ThingDef ParentName="WoolBase">
+    <defName>ISA_GigaspiderSilk</defName>
+    <label>gigaspider wool</label>
+    <description>rhino's wool. It provides good insulation.</description>
+    <statBases>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+      <MaxHitPoints>150</MaxHitPoints>
+      <MarketValue>10</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>2</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.05</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.05</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.1</StuffPower_Armor_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(217,159,45)</color>
+      <commonality>0</commonality>
+    </stuffProps>
+    <graphicData>
+      <color>(217,159,45)</color>
+    </graphicData>
+  </ThingDef>
 </Defs>
