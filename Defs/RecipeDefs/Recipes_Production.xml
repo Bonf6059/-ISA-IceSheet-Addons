@@ -4,7 +4,7 @@
 <RecipeDef>
     <defName>ISA_MakeBiofuelFromWood</defName>
     <label>make biofuel</label>
-    <description>Make a batch of bone ash by burning bones at high temperatures.</description>
+    <description>Make a batch of biofuel by extracting it from wood.</description>
     <jobString>Making biofuel.</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
