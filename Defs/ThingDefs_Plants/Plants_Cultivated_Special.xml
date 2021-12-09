@@ -47,6 +47,10 @@
       <heatPerSecond>3.5</heatPerSecond>
       <heatPushMaxTemperature>30</heatPushMaxTemperature>
     </li>
+    <li Class="CompProperties_Glower">
+      <glowRadius>3</glowRadius>
+      <glowColor>(370,370,370,0)</glowColor>
+    </li>
     </comps>
   </ThingDef>
 
