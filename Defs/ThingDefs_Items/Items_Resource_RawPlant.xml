@@ -4,7 +4,7 @@
 <!-- RawFood -->
 
 <ThingDef ParentName="PlantFoodRawBase">
-    <defName>ISARawCarrot</defName>
+    <defName>ISA_RawCarrot</defName>
     <label>carrots</label>
     <description>Raw carrots.</description>
     <graphicData>
@@ -27,7 +27,7 @@
 <!-- RawDrugs -->
 
 <ThingDef ParentName="RoughPlantBase">
-    <defName>ISARawGrape</defName>
+    <defName>ISA_RawGrape</defName>
     <label>grapes</label>
     <description>Raw grapes. A flavoring and preserving agent that is necessary for making wine.</description>
     <graphicData>
