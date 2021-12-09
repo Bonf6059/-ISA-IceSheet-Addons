@@ -5,7 +5,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ISA_Boomaseal</defName>
 		<label>boomaseal</label>
-		<description>A medium sized semi-aquatic mammal, which only comes ashore to eat, mate and escape from predators. Being an aggresive hunter, seals are capable of tackling much bigger prey and are known for cannibalism if the food is scarce.</description>
+		<description>A medium sized semi-aquatic mammal, which only comes ashore to eat, mate and escape from predators. Being an aggresive hunter, seals are capable of tackling much bigger prey and are known for cannibalism if the food is scarce. This specimen seems to have developed large sac of volatile chemicals on its body</description>
 		<statBases>
 			<MoveSpeed>2.2</MoveSpeed>
 			<MarketValue>200</MarketValue>
