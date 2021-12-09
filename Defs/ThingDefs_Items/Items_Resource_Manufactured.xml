@@ -44,7 +44,6 @@
       <PlantMatter>20</PlantMatter>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>BiofuelRefining</researchPrerequisite>
       <recipeUsers>
           <li>BiofuelRefinery</li>
       </recipeUsers>
