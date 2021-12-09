@@ -5,7 +5,7 @@
     <defName>ISA_Puffin</defName>
     <label>puffin</label>
     <devNote>chicken-1</devNote>
-    <description>A domesticated bird kept by humans as poultry for it's eggs and meat. Lays eggs very often, however they take a long time to hatch.</description>
+    <description>A wild bird from which humans steals it's egg and hunt for food. Lays eggs very often, however they take a long time to hatch.</description>
     <statBases>
       <MoveSpeed>2.3</MoveSpeed>
       <MarketValue>90</MarketValue>
