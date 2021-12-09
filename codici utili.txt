@@ -1,0 +1,38 @@
+PARTI DI CODICE UTILI
+
+<comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(370,370,370,0)</glowColor>
+        <overlightRadius>7.0</overlightRadius>
+      </li>
+</comps>
+Se dato a una fonte di luce dentro a <ThingDef> permette di far crescere le piante
+
+<!-- ==================================================== -->
+<comps>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+
+    <li Class="CompProperties_HeatPusher">
+      <compClass>CompHeatPusherPowered</compClass>
+      <heatPerSecond>3.5</heatPerSecond>
+      <heatPushMaxTemperature>23</heatPushMaxTemperature>
+    </li>
+</comps>
+Sono entrambi necessari per far riconoscere una struttura come una fonte di calore
+
+<!-- ==================================================== -->
+<HediffDef>
+  <stages>
+    <li>
+      <statOffsets>
+        <ArmorRating_Heat>0.25</ArmorRating_Heat>
+        <ComfyTemperatureMin>-36</ComfyTemperatureMin>
+      </statOffsets>
+    </li>
+  </stages>
+</HediffDef>
+
+Questo (se applicato dentro a bionics) permette di modificare le stat dei pawns
