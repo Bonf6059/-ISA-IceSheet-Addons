@@ -28,21 +28,22 @@
 
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>ISABionicInsulatorCold</defName>
-    <label>bionic insulator</label>
+    <label>bionic cold insulator</label>
     <description>An advanced artificial eye. With its biogel nerve-link, internal signal pre-processor, and wide-spectrum sensors, it is better than a biological eye in almost every way. A lattice-dust healing system allows it to recover from damage.</description>
-    <descriptionHyperlinks><RecipeDef>ISABionicInsulator</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks><RecipeDef>ISABionicInsulatorCold</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>30</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
     <statBases>
+      <MarketValue>2400</MarketValue>
       <Mass>0.3</Mass>
     </statBases>
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-    <defName>InstallISABionicInsulator</defName>
+    <defName>InstallISABionicInsulatorCold</defName>
     <label>install bionic insulator</label>
     <description>Install a bionic insulator.</description>
     <descriptionHyperlinks>
@@ -69,6 +70,9 @@
       <li>Torso</li>
     </appliedOnFixedBodyParts>
     <addsHediff>ISABionicInsulatorCold</addsHediff>
+    <incompatibleWithHediffTags>
+      <li>ArmorGland</li>
+    </incompatibleWithHediffTags>
   </RecipeDef>
   
   
@@ -83,7 +87,7 @@
       <li>
         <statOffsets>
           <ArmorRating_Heat>0.4</ArmorRating_Heat>
-		      <ComfyTemperatureMax>24</ComfyTemperatureMax>
+          <ComfyTemperatureMax>24</ComfyTemperatureMax>
         </statOffsets>
       </li>
     </stages>
@@ -94,6 +98,10 @@
     <label>bionic hot insulator</label>
     <description>This small patch of artificial skin quickly spreads to cover the user's body. Archotech skin resists pressure changes and offers complete immunity to vaccum depressurization, as well as providing significant armor and temperature insulation. In conjunction with archotech lungs, it offers the ability to survive vacuum indefinitely. It looks and feels like natural flesh, but is harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
     <descriptionHyperlinks><RecipeDef>InstallISABionicInsulatorHot</RecipeDef></descriptionHyperlinks>
+    <costList>
+      <Plasteel>30</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
     <statBases>
       <MarketValue>2800</MarketValue>
       <Mass>0.3</Mass>
