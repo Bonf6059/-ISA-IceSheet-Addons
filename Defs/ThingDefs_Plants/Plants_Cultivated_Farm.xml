@@ -5,7 +5,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>ISA_Plant_Carrot</defName>
     <label>carrot plant</label>
-    <description>A short, fast-growing crop that yields small edible grains. Its great nutritional output and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil.</description>
+    <description>A fast-growing crop that yields carrots. Its great nutritional output and ease of cultivation has made it the economic core of many great civilizations. It isn't sensitive to soil fertility and will fare well in poor soil.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Nutrition>0.25</Nutrition>
@@ -30,7 +30,7 @@
       </sowTags>
       <harvestFailable>false</harvestFailable>
       <topWindExposure>0.1</topWindExposure>
-      <growDays>3</growDays>
+      <growDays>4</growDays>
       <visualSizeRange>0.3~0.8</visualSizeRange>
       <wildOrder>2</wildOrder>
       <purpose>Food</purpose>
@@ -42,7 +42,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>ISA_Plant_Grapes</defName>
     <label>grape plant</label>
-    <description>A flowering crop that yields hops, an essential ingredient in beer.</description>
+    <description>A crop that yields grapes, an essential ingredient in wine.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Nutrition>0.2</Nutrition>
