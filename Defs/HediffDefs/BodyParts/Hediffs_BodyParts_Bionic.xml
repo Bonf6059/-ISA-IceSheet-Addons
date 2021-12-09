@@ -43,7 +43,7 @@
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-    <defName>InstallISA_BionicInsulatorCold</defName>
+    <defName>ISA_InstallBionicInsulatorCold</defName>
     <label>install bionic insulator</label>
     <description>Install a bionic insulator.</description>
     <descriptionHyperlinks>
@@ -97,7 +97,7 @@
     <defName>ISA_BionicInsulatorHot</defName>
     <label>bionic hot insulator</label>
     <description>This small patch of artificial skin quickly spreads to cover the user's body. Archotech skin resists pressure changes and offers complete immunity to vaccum depressurization, as well as providing significant armor and temperature insulation. In conjunction with archotech lungs, it offers the ability to survive vacuum indefinitely. It looks and feels like natural flesh, but is harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
-    <descriptionHyperlinks><RecipeDef>InstallISA_BionicInsulatorHot</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks><RecipeDef>ISA_InstallBionicInsulatorHot</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>30</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
@@ -109,7 +109,7 @@
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallImplantBase">
-    <defName>InstallISA_BionicInsulatorHot</defName>
+    <defName>ISA_InstallBionicInsulatorHot</defName>
     <label>install bionic hot insulator</label>
     <description>Install bionic hot insulator.</description>
     <descriptionHyperlinks>
