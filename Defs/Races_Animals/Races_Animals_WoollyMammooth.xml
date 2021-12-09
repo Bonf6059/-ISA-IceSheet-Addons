@@ -5,7 +5,7 @@
     <defName>ISA_Mammooth</defName>
     <label>mammooth</label>
     <devNote>cow-1</devNote>
-    <description>The largest unmodified land animal. Elephants has a long trunk they use to manipulate objects, and sharp tusks they use to gore attackers. A dead elephant's valuable tusks can be recovered by butchering it.\n\nIntelligent creatures with complex social relationships, elephants can be used as pack animals or trained to carry out the most complex of tasks. They live a long time, and are known to remember events and relationships from many decades before.</description>
+    <description>The largest revived land animal. Mammoths has a long trunk they use to manipulate objects, and sharp tusks they use to gore attackers. A dead mammoth's valuable tusks can be recovered by butchering it.\n\nThey have been revived for unknown reasons but can be used as pack animals or trained to carry out the most complex of tasks.</description>
     <statBases>
       <MoveSpeed>4.8</MoveSpeed>
       <MarketValue>850</MarketValue>
