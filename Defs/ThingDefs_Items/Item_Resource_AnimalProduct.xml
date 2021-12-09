@@ -76,9 +76,9 @@
   </ThingDef>
   
 <ThingDef ParentName="WoolBase">
-    <defName>ISA_GigaspiderSilk</defName>
-    <label>gigaspider wool</label>
-    <description>rhino's wool. It provides good insulation.</description>
+    <defName>ISA_SpiderSilk</defName>
+    <label>gigaspider silk</label>
+    <description>gigaspider's wool. It provides little insulation but is valuable.</description>
     <statBases>
       <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
