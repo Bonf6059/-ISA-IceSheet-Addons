@@ -4,7 +4,7 @@
 <!-- Biofuel generator-->
     
 <ThingDef ParentName="BuildingBase">
-    <defName>ISABiofuelPoweredGenerator</defName>
+    <defName>ISA_BiofuelPoweredGenerator</defName>
     <label>biofuel powered generator</label>
     <description>Produces power by consuming biofuel. Must be periodically refueled by hand.</description>
     <thingClass>Building</thingClass>
@@ -53,7 +53,7 @@
         <fuelCapacity>30.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
-            <li>ISABiofuel</li>
+            <li>ISA_Biofuel</li>
           </thingDefs>
         </fuelFilter>
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -89,7 +89,7 @@
   </ThingDef>
 
  <ThingDef ParentName="BuildingBase">
-    <defName>ISABiofuelPoweredMiniGenerator</defName>
+    <defName>ISA_BiofuelPoweredMiniGenerator</defName>
     <label>portable biofuel powered generator</label>
     <description>Produces power by consuming biofuel. Must be periodically refueled by hand. Can be moved around</description>
     <thingClass>Building</thingClass>
@@ -143,7 +143,7 @@
         <fuelCapacity>10.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
-            <li>ISABiofuel</li>
+            <li>ISA_Biofuel</li>
           </thingDefs>
         </fuelFilter>
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
