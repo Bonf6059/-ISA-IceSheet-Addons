@@ -29,7 +29,7 @@
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>ISA_BionicInsulatorCold</defName>
     <label>bionic cold insulator</label>
-    <description>An advanced artificial eye. With its biogel nerve-link, internal signal pre-processor, and wide-spectrum sensors, it is better than a biological eye in almost every way. A lattice-dust healing system allows it to recover from damage.</description>
+    <description>This small patch of artificial skin quickly spreads to cover the user's body. Bionic cold insulator skin resists lower temperatures than biological skin. It looks and feels like natural flesh, but even if it is harmed, it repairs itself over time.</description>
     <descriptionHyperlinks><RecipeDef>ISA_BionicInsulatorCold</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>30</Plasteel>
@@ -45,7 +45,7 @@
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>ISA_InstallBionicInsulatorCold</defName>
     <label>install bionic insulator</label>
-    <description>Install a bionic insulator.</description>
+    <description>Install a bionic cold insulator.</description>
     <descriptionHyperlinks>
       <ThingDef>ISA_BionicInsulatorCold</ThingDef>
       <HediffDef>ISA_BionicInsulatorCold</HediffDef>
@@ -96,7 +96,7 @@
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>ISA_BionicInsulatorHot</defName>
     <label>bionic hot insulator</label>
-    <description>This small patch of artificial skin quickly spreads to cover the user's body. Archotech skin resists pressure changes and offers complete immunity to vaccum depressurization, as well as providing significant armor and temperature insulation. In conjunction with archotech lungs, it offers the ability to survive vacuum indefinitely. It looks and feels like natural flesh, but is harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+    <description>This small patch of artificial skin quickly spreads to cover the user's body. Bionic hot insulator skin resists higher temperatures than biological skin. It looks and feels like natural flesh, but even if it is harmed, it repairs itself over time.</description>
     <descriptionHyperlinks><RecipeDef>ISA_InstallBionicInsulatorHot</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>30</Plasteel>
