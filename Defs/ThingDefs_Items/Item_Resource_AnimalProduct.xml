@@ -83,7 +83,7 @@
       <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
       <MaxHitPoints>150</MaxHitPoints>
-      <MarketValue>10</MarketValue>
+      <MarketValue>12</MarketValue>
       <Mass>0.025</Mass>
       <Flammability>2</Flammability>
       <DeteriorationRate>3</DeteriorationRate>
