@@ -2,7 +2,7 @@
 <Defs>
   
     <ThingDef ParentName="BaseInsect">
-    <defName>ISAGigascarab</defName>
+    <defName>ISA_Gigascarab</defName>
     <label>gigascarab</label>
     <description>A large, genetically-engineered beetle. Once the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
     <statBases>
@@ -22,7 +22,7 @@
     		<milkFemaleOnly>false</milkFemaleOnly>
       </li>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>EggISAGigascarabFertilized</eggFertilizedDef>
+        <eggFertilizedDef>EggISA_GigascarabFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>9</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -101,9 +101,9 @@
   </ThingDef>
   
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>ISAGigascarab</defName>
+    <defName>ISA_Gigascarab</defName>
     <label>gigascarab</label>
-    <race>ISAGigascarab</race>
+    <race>ISA_Gigascarab</race>
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.15</ecoSystemWeight>
@@ -150,7 +150,7 @@
   
 <!-- ===================================================================================================================================================================== -->
 <ThingDef ParentName="BaseInsect">
-    <defName>ISAGigaspider</defName>
+    <defName>ISA_Gigaspider</defName>
     <label>gigaspider</label>
     <description>Not actually a spider, the megaspider is a genetically-engineered giant insectoid the size of a bear. Designed for heavy work and combat, its thick chitinous armor makes it hard to kill, while its long ripper-blades make it deadly at close quarters. It is, however, quite slow in open terrain.</description>
     <statBases>
@@ -164,12 +164,12 @@
     <uiIconScale>1.15</uiIconScale>
   		<comps>
       <li Class="CompProperties_Shearable">
-        <woolDef>ISASpiderSilk</woolDef>
+        <woolDef>ISA_SpiderSilk</woolDef>
         <shearIntervalDays>15</shearIntervalDays>
         <woolAmount>65</woolAmount>
       </li>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>EggISAGigaspiderFertilized</eggFertilizedDef>
+        <eggFertilizedDef>EggISA_GigaspiderFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>9</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -248,9 +248,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>ISAGigaspider</defName>
+    <defName>ISA_Gigaspider</defName>
     <label>gigaspider</label>
-    <race>ISAGigaspider</race>
+    <race>ISA_Gigaspider</race>
     <combatPower>150</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
