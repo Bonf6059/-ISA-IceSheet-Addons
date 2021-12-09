@@ -12,6 +12,7 @@
     </statBases>
     <race>
       <wildBiomes>
+        <IceSheet>0.1</IceSheet>
         <Tundra>0.5</Tundra>
         <BorealForest>0.7</BorealForest>
         <TemperateForest>0.2</TemperateForest>
