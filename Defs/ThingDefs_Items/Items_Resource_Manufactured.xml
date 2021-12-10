@@ -40,9 +40,6 @@
       </li>
     </comps>
     <allowedArchonexusCount>100</allowedArchonexusCount>
-    <costList>
-      <PlantMatter>20</PlantMatter>
-    </costList>
     <recipeMaker>
       <recipeUsers>
           <li>BiofuelRefinery</li>
