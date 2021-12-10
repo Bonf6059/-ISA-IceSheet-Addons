@@ -40,7 +40,7 @@
     <comps>
     <li Class="CompProperties_HeatPusher">
       <compClass>CompHeatPusherPowered</compClass>
-      <heatPerSecond>3.5</heatPerSecond>
+      <heatPerSecond>10</heatPerSecond>
       <heatPushMaxTemperature>30</heatPushMaxTemperature>
     </li>
     <li Class="CompProperties_Glower">
