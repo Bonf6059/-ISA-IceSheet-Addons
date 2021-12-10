@@ -38,10 +38,6 @@
       <immatureGraphicPath>Things/Armillarix/AImmature</immatureGraphicPath>
     </plant>
     <comps>
-    <placeWorkers>
-      <li>PlaceWorker_Heater</li>
-    </placeWorkers>
-
     <li Class="CompProperties_HeatPusher">
       <compClass>CompHeatPusherPowered</compClass>
       <heatPerSecond>3.5</heatPerSecond>
