@@ -216,20 +216,20 @@
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <costList>
-      <Steel>300</Steel>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <Steel>180</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerPlant</compClass>
-        <basePowerConsumption>-2000</basePowerConsumption>
+        <basePowerConsumption>-2400</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
         <soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>5</fuelConsumptionRate>
-        <fuelCapacity>50.0</fuelCapacity>
+        <fuelConsumptionRate>4</fuelConsumptionRate>
+        <fuelCapacity>60.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
             <li>ISA_Biofuel</li>
