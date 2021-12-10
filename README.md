@@ -1,16 +1,14 @@
-#test
+This mod depend on vanilla expanded framework made by the vanilla expanded team; some of the element in this mod are inspired by some of the mods of the Vanilla Expanded team (Vanilla factions expanded-Insectoid, vanilla animals expanded-ice sheet) , and is dependent on the last one due to technical difficulties (I'm unable to create file audio for the animals) the rest has been created by me. Do whatever you want with the code but you must quote me.
 
-                        Fix
+                        Need fix
                         
 -Sistemare spider silk non viene prodotta
 
--Elimina biofuel e sostituisci creando alternative per chemfuel
+-Biofuel
 
                         Idee
                         
--aggiungere recipe neutroammina (5 chemfuel, 20 psychoid leaves al druglab, sbloccato da/dopo biofuel refinery)
-
--add biofuel (craftabile alla refinery, sbloccato da biofuel refinery)
+-add neutroammine recipe (5 chemfuel, 20 psychoid leaves at the druglab, unlocked by/after biofuel refinery)
 
 -add chemfeul/biofuel heater
 
@@ -19,10 +17,8 @@
 -add patch power armor (comfortable temperature 175/-175)
 
 -add armored warm clothes
-
-- add insetti che scavano per te
  
--mining/skills related bionics, prostetichs
+-skills related bionics/prostetichs
 
                        Scartabili
                        
