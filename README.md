@@ -27,8 +27,6 @@ da aggiungere:
 -add armored warm clothes
 
 Sistemare spider silk non viene prodotta
-Sistemare Bionic cold sostituzione codice con hot
-Texture gigabeetle?
 Elimina biofuel e sostituisci creando alternative per chemfuel
  
 
