@@ -168,7 +168,7 @@
       <li Class="CompProperties_Shearable">
         <woolDef>ISA_SpiderSilk</woolDef>
         <shearIntervalDays>0.5</shearIntervalDays>
-        <woolAmount>65</woolAmount>
+        <woolAmount>20</woolAmount>
       </li>
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>ISA_EggGigaspiderFertilized</eggFertilizedDef>
