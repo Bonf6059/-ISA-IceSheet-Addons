@@ -2,30 +2,30 @@ This mod depend on vanilla expanded framework made by the vanilla expanded team;
 
                         Need fix
                         
--Sistemare spider silk non viene prodotta
+- Sistemare spider silk non viene prodotta
 
--Biofuel
+- Biofuel
 
                         Idee
                         
--add neutroammine recipe (5 chemfuel, 20 psychoid leaves at the druglab, unlocked by/after biofuel refinery)
+- add neutroammine recipe (5 chemfuel, 20 psychoid leaves at the druglab, unlocked by/after biofuel refinery)
 
--add chemfeul/biofuel heater
+- add chemfeul/biofuel heater
 
--add chemfuel/biofuel cooler
+- add chemfuel/biofuel cooler
 
--add patch power armor (comfortable temperature 175/-175)
+- add patch power armor (comfortable temperature 175/-175)
 
--add armored warm clothes
+- add armored warm clothes
  
--skills related bionics/prostetichs
+- skills related bionics/prostetichs
 
 - brain spike (half conciousness, literally a metal rod trough the brain, 15 steel)
 
                        Scartabili
                        
--aggiungere angel dust (thrumbo horn + psycoid leaves al druglab o crafting spot, aumenta capacità fisiche pain-50 moving+10 manipulation+5 diminuisce coscienza -10%, ne produce 5 per corno, stesso withdrawl di yayo)
+- aggiungere angel dust (thrumbo horn + psycoid leaves al druglab o crafting spot, aumenta capacità fisiche pain-50 moving+10 manipulation+5 diminuisce coscienza -10%, ne produce 5 per corno, stesso withdrawl di yayo)
 
--aggiungere crushed thrumbo horn (craftabile allo smithing table 1 x 3, sbloccato da angeloterium)
+- aggiungere crushed thrumbo horn (craftabile allo smithing table 1 x 3, sbloccato da angeloterium)
 
--add angeloterium (tipo luciferium ma non uccide, craftabile con neutroammina, yayo, crushed thrumbo horn al druglab, withdrawl catatonic breakdown, sbloccato da/dopo medicinemaker)
+- add angeloterium (tipo luciferium ma non uccide, craftabile con neutroammina, yayo, crushed thrumbo horn al druglab, withdrawl catatonic breakdown, sbloccato da/dopo medicinemaker)
