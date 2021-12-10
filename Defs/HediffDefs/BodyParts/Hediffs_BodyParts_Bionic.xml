@@ -3,23 +3,16 @@
 
   
   <!-- Insulator Cold -->
-  <HediffDef ParentName="AddedBodyPartBase">
+  <HediffDef ParentName="ImplantHediffBase">
     <defName>ISA_BionicInsulatorCold</defName>
     <label>bionic cold insulator</label>
-    <labelNoun>a bionic that protects from the cold</labelNoun>
-    <description>An installed bionic cold insulator.</description>
+    <description>Installed bionic cold insulator.</description>
     <descriptionHyperlinks><ThingDef>ISA_BionicInsulatorCold</ThingDef></descriptionHyperlinks>
     <spawnThingOnRemoved>ISA_BionicInsulatorCold</spawnThingOnRemoved>
-    <woundAnchorRange>0</woundAnchorRange>
-    <displayWound>true</displayWound>
-    <addedPartProps>
-      <solid>true</solid>
-      <betterThanNatural>true</betterThanNatural>
-    </addedPartProps>
     <stages>
       <li>
         <statOffsets>
-          <ArmorRating_Heat>0.25</ArmorRating_Heat>
+          <ArmorRating_Heat>0.2</ArmorRating_Heat>
           <ComfyTemperatureMin>-36</ComfyTemperatureMin>
         </statOffsets>
       </li>
@@ -30,22 +23,21 @@
     <defName>ISA_BionicInsulatorCold</defName>
     <label>bionic cold insulator</label>
     <description>This small patch of artificial skin quickly spreads to cover the user's body. Bionic cold insulator skin resists lower temperatures than biological skin. It looks and feels like natural flesh, but even if it is harmed, it repairs itself over time.</description>
-    <descriptionHyperlinks><RecipeDef>ISA_BionicInsulatorCold</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks><RecipeDef>ISA_InstallBionicInsulatorCold</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasteel>30</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
-    <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
     <statBases>
-      <MarketValue>2400</MarketValue>
+      <MarketValue>2800</MarketValue>
       <Mass>0.3</Mass>
     </statBases>
   </ThingDef>
 
-  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
     <defName>ISA_InstallBionicInsulatorCold</defName>
-    <label>install bionic insulator</label>
-    <description>Install a bionic cold insulator.</description>
+    <label>install bionic cold insulator</label>
+    <description>Install bionic cold insulator.</description>
     <descriptionHyperlinks>
       <ThingDef>ISA_BionicInsulatorCold</ThingDef>
       <HediffDef>ISA_BionicInsulatorCold</HediffDef>
@@ -73,6 +65,18 @@
     <incompatibleWithHediffTags>
       <li>ArmorGland</li>
     </incompatibleWithHediffTags>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>RemoveISA_BionicInsulatorCold</defName>
+    <label>remove bionic cold insulator</label>
+    <description>Remove bionic cold insulator.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ISA_BionicInsulatorCold</ThingDef>
+      <HediffDef>ISA_BionicInsulatorCold</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing bionic cold insulator.</jobString>
+    <removesHediff>ISA_BionicInsulatorCold</removesHediff>
   </RecipeDef>
   
   
