@@ -15,12 +15,12 @@
       <LeatherAmount>0</LeatherAmount>
     </statBases>
     <uiIconScale>2</uiIconScale>
-		<comps>
+    <comps>
       <li Class="CompProperties_Milkable">
         <milkDef>InsectJelly</milkDef>
         <milkIntervalDays>0.5</milkIntervalDays>
-     		<milkAmount>9</milkAmount>
-    		<milkFemaleOnly>false</milkFemaleOnly>
+    	<milkAmount>9</milkAmount>
+    	<milkFemaleOnly>false</milkFemaleOnly>
       </li>
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>ISA_EggGigascarabFertilized</eggFertilizedDef>
@@ -164,7 +164,7 @@
       <ArmorRating_Sharp>0.27</ArmorRating_Sharp>
     </statBases>
     <uiIconScale>1.25</uiIconScale>
-  		<comps>
+    <comps>
       <li Class="CompProperties_Shearable">
         <woolDef>ISA_SpiderSilk</woolDef>
         <shearIntervalDays>0.5</shearIntervalDays>
