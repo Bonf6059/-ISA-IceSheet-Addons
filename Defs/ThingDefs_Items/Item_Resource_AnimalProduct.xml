@@ -75,7 +75,7 @@
     </comps>
   </ThingDef>
   
-<ThingDef ParentName="WoolBase">
+<ThingDef ParentName="ResourceBase">
     <defName>ISA_Spidersilk</defName>
     <label>spidersilk</label>
     <description>A very delicate fabric that seems to shine due to the unique way it reflects light rays. It’s very flammable and provides little protection, but its beauty makes it extremely valuable.</description>
