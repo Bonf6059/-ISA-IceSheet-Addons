@@ -166,7 +166,7 @@
     <uiIconScale>1.25</uiIconScale>
     <comps>
       <li Class="CompProperties_Shearable">
-        <woolDef>ISA_SpiderSilk</woolDef>
+        <woolDef>ISA_Spidersilk</woolDef>
         <shearIntervalDays>0.5</shearIntervalDays>
         <woolAmount>20</woolAmount>
       </li>
