@@ -63,7 +63,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>ISA_BionicInsulatorCold</addsHediff>
     <incompatibleWithHediffTags>
-      <li>ArmorGland</li>
+      <li>ISA_BionicInsulatorHot</li>
     </incompatibleWithHediffTags>
   </RecipeDef>
   
@@ -141,7 +141,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>ISA_BionicInsulatorHot</addsHediff>
     <incompatibleWithHediffTags>
-      <li>ArmorGland</li>
+      <li>ISA_BionicInsulatorCold</li>
     </incompatibleWithHediffTags>
   </RecipeDef>
   
@@ -156,5 +156,101 @@
     <jobString>Removing bionic hot insulator.</jobString>
     <removesHediff>ISA_BionicInsulatorHot</removesHediff>
   </RecipeDef>
-  
+
+ <!-- Plasteel Claws-->
+ <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ISA_PlasteelClaw</defName>
+    <label>plasteel claw</label>
+    <labelNoun>a plasteel claw</labelNoun>
+    <description>An installed plasteel claw.</description>
+    <descriptionHyperlinks><ThingDef>ISA_PlasteelClaw</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.1</offset>
+            <capacity>Mining</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>claw</label>
+            <capacities>
+              <li>Scratch</li>
+            </capacities>
+            <power>27</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>ISA_Pawn_Melee_PlasteelClaw_Hit</soundMeleeHit>
+            <soundMeleeMiss>ISA_Pawn_Melee_PlasteelClaw_Miss</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>ISA_PlasteelClaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartProstheticBase">
+    <defName>ISA_PlasteelClaw</defName>
+    <label>plasteel claw</label>
+    <description>A combat-oriented hand replacement consisting of a mechanical hand with a hooked claw on each finger. It cuts deep, and it is strong enough to crush a skull like a hand crushes an egg. The claws can be retracted, making it as useful as a natural hand for non-combat tasks, however its overall ungainliness slows down movement slightly.</description>
+    <descriptionHyperlinks><RecipeDef>ISA_InstallPlasteelClaw</RecipeDef></descriptionHyperlinks>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <Steel>20</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <Mass>4</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+      <li>AdvancedWeapon</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>ISA_InstallPlasteelClaw</defName>
+    <label>install plasteel claw</label>
+    <description>Install a plasteel claw.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ISA_PlasteelClaw</ThingDef>
+      <HediffDef>ISA_PlasteelClaw</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing plasteel claw.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ISA_PlasteelClaw</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ISA_PlasteelClaw</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ISA_PlasteelClaw</addsHediff>
+  </RecipeDef>
 </Defs>
