@@ -20,7 +20,7 @@ This mod depend on vanilla expanded framework made by the vanilla expanded team;
  
 -skills related bionics/prostetichs
 
-- ??? slave brain implants (half conciousness but ? ) ???
+- brain spike (half conciousness, literally a metal rod trough the brain, 15 steel)
 
                        Scartabili
                        
