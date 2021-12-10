@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+    
+<!-- Biofuel from wood log -->
 <RecipeDef>
     <defName>ISA_MakeBiofuelFromWood</defName>
     <label>make biofuel</label>
@@ -14,7 +15,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Wood</li>
+            <li>WoodLog</li>
           </thingDefs>
         </filter>
         <count>20</count>
@@ -22,26 +23,25 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Wood</li>
+        <li>WoodLog</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Wood>20</Wood>
+      <WoodLog>20</WoodLog>
     </products>
     <researchPrerequisite>BiofuelRefining</researchPrerequisite>
   </RecipeDef>
-    
-  <RecipeDef>
+
+<!-- Biofuel from organic matter -->
+<RecipeDef>
     <defName>ISA_MakeBiofuelFromOrganics</defName>
     <label>make biofuel from organics</label>
     <description>Make a batch of biofuel by extracting it from organic feedstocks.</description>
-    <jobString>Refining biofuel from organics.</jobString>
+    <jobString>Making biofuel.</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>2700</workAmount>
+    <workAmount>2500</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <allowMixingIngredients>true</allowMixingIngredients>
-    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
     <ingredients>
       <li>
         <filter>
@@ -53,7 +53,7 @@
             <li>FoodMeals</li>
           </disallowedCategories>
         </filter>
-        <count>3.5</count>
+        <count>20</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -65,17 +65,9 @@
         <li>FoodMeals</li>
       </disallowedCategories>
     </fixedIngredientFilter>
-    <defaultIngredientFilter>
-      <categories>
-        <li>FoodRaw</li>
-      </categories>
-      <disallowedCategories>
-        <li>MeatRaw</li>
-        <li>AnimalProductRaw</li>
-      </disallowedCategories>
-    </defaultIngredientFilter>
     <products>
       <ISA_Biofuel>35</ISA_Biofuel>
     </products>
+    <researchPrerequisite>BiofuelRefining</researchPrerequisite>
   </RecipeDef>
 </Defs>
