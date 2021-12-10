@@ -253,4 +253,64 @@
     </appliedOnFixedBodyParts>
     <addsHediff>ISA_PlasteelClaw</addsHediff>
   </RecipeDef>
+  
+  <!-- Crampons -->
+   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ISA_MechanicalCrampon</defName>
+    <label>mechanical crampon</label>
+    <labelNoun>a mechanical crampon</labelNoun>
+    <description>An installed mechanical crampon.</description>
+    <descriptionHyperlinks><ThingDef>ISA_MechanicalCrampon</ThingDef></descriptionHyperlinks>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.10</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartProstheticMakeableBase">
+    <defName>ISA_MechanicalCrampon</defName>
+    <label>mechanical crampon</label>
+    <description>A mechanical crampon. While it lacks a neural interface, its perfect for traversing rough terrain.</description>
+    <descriptionHyperlinks><RecipeDef>ISA_InstallMechanicalCrampon</RecipeDef></descriptionHyperlinks>
+    <costList>
+      <Steel>25</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <Mass>4</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>ISA_InstallMechanicalCrampon</defName>
+    <label>install mechanical crampon</label>
+    <description>Install a mechanical crampon.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ISA_MechanicalCrampon</ThingDef>
+      <HediffDef>ISA_MechanicalCrampon</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mechanical crampon.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ISA_MechanicalCrampon</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ISA_MechanicalCrampon</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ISA_MechanicalCrampon</addsHediff>
+  </RecipeDef>
 </Defs>
