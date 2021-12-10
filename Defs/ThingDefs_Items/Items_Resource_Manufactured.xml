@@ -40,12 +40,6 @@
       </li>
     </comps>
     <allowedArchonexusCount>100</allowedArchonexusCount>
-    <recipeMaker>
-      <recipeUsers>
-          <li>BiofuelRefinery</li>
-      </recipeUsers>
-      <soundWorking>Recipe_Drug</soundWorking>
-    </recipeMaker>
   </ThingDef>
 
  </Defs>
