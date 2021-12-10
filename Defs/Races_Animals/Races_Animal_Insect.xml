@@ -18,7 +18,7 @@
 		<comps>
       <li Class="CompProperties_Milkable">
         <milkDef>InsectJelly</milkDef>
-        <milkIntervalDays>3</milkIntervalDays>
+        <milkIntervalDays>0.5</milkIntervalDays>
      		<milkAmount>9</milkAmount>
     		<milkFemaleOnly>false</milkFemaleOnly>
       </li>
@@ -163,11 +163,11 @@
       <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.27</ArmorRating_Sharp>
     </statBases>
-    <uiIconScale>1.15</uiIconScale>
+    <uiIconScale>1.25</uiIconScale>
   		<comps>
       <li Class="CompProperties_Shearable">
         <woolDef>ISA_SpiderSilk</woolDef>
-        <shearIntervalDays>15</shearIntervalDays>
+        <shearIntervalDays>0.5</shearIntervalDays>
         <woolAmount>65</woolAmount>
       </li>
       <li Class="CompProperties_EggLayer">
