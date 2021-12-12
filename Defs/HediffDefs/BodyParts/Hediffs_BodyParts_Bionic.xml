@@ -170,11 +170,12 @@
           <li>
             <capacity>Moving</capacity>
             <offset>-0.08</offset>
-            <capacity>Mining</capacity>
-            <offset>0.25</offset>
           </li>
         </capMods>
       </li>
+      <statOffsets>
+          <MiningSpeed>1.25</MiningSpeed>
+      </statOffsets>
     </stages>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
