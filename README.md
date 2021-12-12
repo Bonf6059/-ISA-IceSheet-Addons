@@ -4,15 +4,15 @@ This mod depend on vanilla expanded framework made by the vanilla expanded team;
                         
 - Sistemare spider silk non viene prodotta
 
-- Biofuel
+- 
 
                         Idee
                         
 - add neutroammine recipe (5 chemfuel, 20 psychoid leaves at the druglab, unlocked by/after biofuel refinery)
 
-- add chemfeul/biofuel heater
+- add chemfeul heater
 
-- add chemfuel/biofuel cooler
+- add chemfuel cooler
 
 - add patch power armor (comfortable temperature 175/-175)
 
@@ -29,3 +29,5 @@ This mod depend on vanilla expanded framework made by the vanilla expanded team;
 - aggiungere crushed thrumbo horn (craftabile allo smithing table 1 x 3, sbloccato da angeloterium)
 
 - add angeloterium (tipo luciferium ma non uccide, craftabile con neutroammina, yayo, crushed thrumbo horn al druglab, withdrawl catatonic breakdown, sbloccato da/dopo medicinemaker)
+
+- biofuel and related generators and etc.
