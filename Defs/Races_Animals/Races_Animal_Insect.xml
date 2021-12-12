@@ -2,25 +2,24 @@
 <Defs>
   
 <!-- Gigascarab -->
-    <ThingDef ParentName="BaseInsect">
-    <defName>ISA_Gigascarab</defName>
+  <ThingDef ParentName="BaseInsect">
+    <defName>Gigascarab</defName>
     <label>gigascarab</label>
-    <description>A large, genetically-engineered scarab. Once the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature.</description>
+    <description>A large, genetically-engineered beetle. Once the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
     <statBases>
       <MoveSpeed>3.75</MoveSpeed>
       <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
-      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <MarketValue>100</MarketValue>
       <LeatherAmount>0</LeatherAmount>
     </statBases>
     <uiIconScale>2</uiIconScale>
     <comps>
-      <li Class="CompProperties_Milkable">
-        <milkDef>InsectJelly</milkDef>
-        <milkIntervalDays>0.5</milkIntervalDays>
-    	<milkAmount>9</milkAmount>
-    	<milkFemaleOnly>false</milkFemaleOnly>
+      <li Class="CompProperties_Shearable">
+        <woolDef>ISA_Spidersilk</woolDef>
+        <shearIntervalDays>0.5</shearIntervalDays>
+        <woolAmount>20</woolAmount>
       </li>
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>ISA_EggGigascarabFertilized</eggFertilizedDef>
@@ -29,7 +28,7 @@
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>1~3</eggCountRange>
       </li>
-    </comps>
+    </comps>  
     <tools>
       <li>
         <label>mandibles</label>
@@ -58,13 +57,9 @@
       <baseHungerRate>0.10</baseHungerRate>
       <baseHealthScale>0.4</baseHealthScale>
       <useMeatFrom>Megaspider</useMeatFrom>
+      <lifeExpectancy>10</lifeExpectancy>
       <wildness>0.2</wildness>
       <trainability>Intermediate</trainability>
-      <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.35</manhunterOnDamageChance>
-      <nameOnTameChance>1</nameOnTameChance>
-      <lifeExpectancy>12</lifeExpectancy>
-      <herdAnimal>false</herdAnimal>
       <lifeStageAges>
         <li>
           <def>EusocialInsectLarva</def>
@@ -86,25 +81,16 @@
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-      <wildBiomes>
-        <IceSheet>0.1</IceSheet>
-        <Tundra>0.2</Tundra>
-        <BorealForest>0.4</BorealForest>
-        <TemperateForest>0.6</TemperateForest>
-        <Desert>0.8</Desert>
-        <ExtremeDesert>0.4</ExtremeDesert>
-      </wildBiomes>
     </race>
     <tradeTags>
       <li>AnimalInsect</li>
-      <li>AnimalUncommon</li>
     </tradeTags>
   </ThingDef>
   
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>ISA_Gigascarab</defName>
+    <defName>Gigascarab</defName>
     <label>gigascarab</label>
-    <race>ISA_Gigascarab</race>
+    <race>Gigascarab</race>
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.15</ecoSystemWeight>
