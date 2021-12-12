@@ -172,10 +172,10 @@
             <offset>-0.08</offset>
           </li>
         </capMods>
-      </li>
       <statOffsets>
           <MiningSpeed>1.25</MiningSpeed>
       </statOffsets>
+      </li>
     </stages>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
