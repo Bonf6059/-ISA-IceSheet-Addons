@@ -38,8 +38,8 @@
       <immatureGraphicPath>Things/Armillarix/AImmature</immatureGraphicPath>
     </plant>
     <comps>
-    <li Class="CompProperties_HeatPusher">
-      <compClass>CompHeatPusherPowered</compClass>
+    <li Class="CompProperties_HeatGiver">
+      <compClass>CompHeatGiver</compClass>
       <heatPerSecond>10</heatPerSecond>
       <heatPushMaxTemperature>30</heatPushMaxTemperature>
     </li>
