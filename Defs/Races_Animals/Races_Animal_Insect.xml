@@ -68,6 +68,8 @@
       <useMeatFrom>Megaspider</useMeatFrom>
       <lifeExpectancy>10</lifeExpectancy>
       <wildness>0.2</wildness>
+      <petness>0.35</petness>
+			<nuzzleMtbHours>240</nuzzleMtbHours>
       <trainability>Intermediate</trainability>
       <lifeStageAges>
         <li>
@@ -276,8 +278,8 @@
   <!-- ====================================================== -->
 
   <ThingDef ParentName="ISA_Insect">
-    <defName>ISA_Weavingspider</defName>
-    <label>weavingspider</label>
+    <defName>ISA_Gigaspider</defName>
+    <label>gigaspider</label>
     <description>Not actually a spider, the megaspider is a genetically-engineered giant insectoid the size of a bear. Designed for heavy work and combat, its thick chitinous armor makes it hard to kill, while its long ripper-blades make it deadly at close quarters. It is, however, quite slow in open terrain.</description>
     <statBases>
       <MoveSpeed>3.60</MoveSpeed>
@@ -288,6 +290,13 @@
       <ArmorRating_Sharp>0.27</ArmorRating_Sharp>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
+    <comps>
+      <li Class="CompProperties_Shearable">
+        <woolDef>ISA_Spidersilk</woolDef>
+        <shearIntervalDays>0.5</shearIntervalDays>
+        <woolAmount>23</woolAmount>
+      </li>
+    </comps>
     <tools>
       <li>
         <label>head claw</label>
@@ -348,9 +357,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>ISA_Weavingspider</defName>
-    <label>weavingspider</label>
-    <race>ISA_Weavingspider</race>
+    <defName>ISA_Gigaspider</defName>
+    <label>gigaspider</label>
+    <race>ISA_Gigaspider</race>
     <combatPower>150</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.50</ecoSystemWeight>
@@ -410,6 +419,75 @@
       <ArmorRating_Sharp>0.33</ArmorRating_Sharp>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
+    <comps>
+	<li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+		<customThingToDig>			
+			<li>ChunkSandstone</li>
+			<li>ChunkGranite</li>
+			<li>ChunkLimestone</li>
+			<li>ChunkSlate</li>
+			<li>ChunkMarble</li>
+			<li>ChunkSandstone</li>
+			<li>ChunkGranite</li>
+			<li>ChunkLimestone</li>
+			<li>ChunkSlate</li>
+			<li>ChunkMarble</li>
+			<li>ChunkSandstone</li>
+			<li>ChunkGranite</li>
+			<li>ChunkLimestone</li>
+			<li>ChunkSlate</li>
+			<li>ChunkMarble</li>
+			<li>ChunkSandstone</li>
+			<li>ChunkGranite</li>
+			<li>ChunkLimestone</li>
+			<li>ChunkSlate</li>
+			<li>ChunkMarble</li>
+			<li>ChunkSandstone</li>
+			<li>ChunkGranite</li>
+			<li>ChunkLimestone</li>
+			<li>ChunkSlate</li>
+			<li>Steel</li>
+			<li>Steel</li>
+			<li>Jade</li>
+			<li>Gold</li>
+			<li>Plasteel</li>
+			<li>Silver</li>			
+		</customThingToDig>
+		<customAmountToDig>				
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+			<li>25</li>
+			<li>25</li>
+			<li>10</li>
+			<li>10</li>
+			<li>10</li>
+			<li>10</li>		
+		</customAmountToDig>
+		<ticksToDig>60000</ticksToDig>
+	</li>
+  </comps>
     <tools>
       <li>
         <label>head claw</label>
@@ -440,6 +518,7 @@
       <gestationPeriodDays>6</gestationPeriodDays>
       <meatLabel>insect meat</meatLabel>
       <lifeExpectancy>10</lifeExpectancy>
+      <packAnimal>true</packAnimal>
       <wildness>0.6</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
