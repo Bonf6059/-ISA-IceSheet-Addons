@@ -3,7 +3,7 @@
 
 <ThingDef ParentName="LeatherBase">
     <defName>ISA_Leather_Pinniper</defName>
-    <label>bluefur</label>
+    <label>pinniped leather</label>
     <description>The furry pelt of muffalo. Recognizable by its distinctive blue tint. Good at temperature regulation in cold climates.</description>
     <graphicData>
       <color>(152,170,174)</color>
@@ -16,7 +16,7 @@
       <color>(152,170,174)</color>
       <commonality>0.025</commonality>
       <statFactors>
-        <Beauty>1.3</Beauty>
+        <Beauty>1.15</Beauty>
       </statFactors>
     </stuffProps>
   </ThingDef>
