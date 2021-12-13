@@ -159,6 +159,13 @@
       <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
     </statBases>
     <uiIconScale>1.1</uiIconScale>
+    <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>InsectJelly</milkDef>
+        <milkIntervalDays>0.5</milkIntervalDays>
+        <milkAmount>6</milkAmount>
+      </li>
+    </comps>
     <tools>
       <li>
         <label>head claw</label>
