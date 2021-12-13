@@ -113,7 +113,7 @@
     <descriptionHyperlinks><RecipeDef>InstallPlasteelClaw</RecipeDef></descriptionHyperlinks>
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
     <costList>
-      <Plasteel></Plasteel>
+      <Plasteel>15</Plasteel>
       <Steel>40</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
