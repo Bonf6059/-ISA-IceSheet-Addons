@@ -7,7 +7,7 @@
     <description>A medium sized mushroom. When fully matured, its cap spreads open to release an inner bulb that emits heat and a bit of light, it's due to a chemical reaction with the oxigen in the air.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
-      <Nutrition>0.2</Nutrition>
+      <Nutrition>0.3</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Armillarix/AMature</texPath>
@@ -23,13 +23,13 @@
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>RawFungus</harvestedThingDef>
-      <harvestYield>20</harvestYield>
+      <harvestYield>15</harvestYield>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
       </sowTags>
-	  <sowMinSkill>10</sowMinSkill>
-	  <sowWork>400</sowWork>
+	  <sowMinSkill>7</sowMinSkill>
+	  <sowWork>350</sowWork>
       <topWindExposure>0.05</topWindExposure>
       <growDays>10</growDays>
       <visualSizeRange>0.4~0.85</visualSizeRange>
@@ -39,8 +39,9 @@
     </plant>
     <comps>
     <li Class="CompProperties_Glower">
-      <glowRadius>3</glowRadius>
+      <glowRadius>1.5</glowRadius>
       <glowColor>(370,370,370,0)</glowColor>
+      <overlightRadius>7.0</overlightRadius>
     </li>
     </comps>
   </ThingDef>
