@@ -10,7 +10,7 @@
     <spawnThingOnRemoved>SimpleProstheticSpine</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>0.85</partEfficiency>
+      <partEfficiency>0.95</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -20,11 +20,11 @@
     <description>A leg prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real leg.</description>
     <descriptionHyperlinks><RecipeDef>InstallSimpleProstheticLeg</RecipeDef></descriptionHyperlinks>
     <costList>
-      <Steel>40</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <statBases>
-      <Mass>8</Mass>
+      <Mass>4</Mass>
     </statBases>
     <techHediffsTags>
       <li>Simple</li>
