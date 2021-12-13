@@ -2,7 +2,7 @@ This mod depend on vanilla expanded framework made by the vanilla expanded team;
 
                         Need fix
                         
-- Sistemare spider silk non viene prodotta
+- Sistemare insetti
 
 - 
 
