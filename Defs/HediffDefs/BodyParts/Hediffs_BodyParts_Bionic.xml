@@ -216,6 +216,9 @@
       <Steel>20</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
+    <recipeMaker>
+      <researchPrerequisite>BionicReplacements</researchPrerequisite>
+    </recipeMaker>
     <statBases>
       <Mass>4</Mass>
     </statBases>
