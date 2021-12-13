@@ -101,10 +101,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.4</minAge>
-					<soundWounded>ISA_Pawn_Seal_Wounded</soundWounded>
-					<soundDeath>ISA_Pawn_Seal_Death</soundDeath>
-					<soundCall>ISA_Pawn_Seal_Call</soundCall>
-					<soundAngry>ISA_Pawn_Seal_Angry</soundAngry>
+					<soundWounded>AEXP_Pawn_Seal_Wounded</soundWounded>
+					<soundDeath>AEXP_Pawn_Seal_Death</soundDeath>
+					<soundCall>AEXP_Pawn_Seal_Call</soundCall>
+					<soundAngry>AEXP_Pawn_Seal_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
