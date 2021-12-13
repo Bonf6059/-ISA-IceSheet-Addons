@@ -7,6 +7,10 @@
       <ToxicSensitivity>0</ToxicSensitivity>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
     </statBases>
+    <comps>
+	<li Class="AnimalBehaviours.CompProperties_AcidImmunity">		
+	</li>			
+    </comps>
     <race>
       <fleshType>Insectoid</fleshType>
       <bloodDef>Filth_BloodInsect</bloodDef>
