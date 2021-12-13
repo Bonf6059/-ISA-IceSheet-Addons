@@ -1,0 +1,59 @@
+<HediffDef ParentName="AddedBodyPartBase">
+    <defName>SimpleProstheticSpine</defName>
+    <label>prosthetic spine</label>
+    <labelNoun>a prosthetic spine</labelNoun>
+    <description>An installed prosthetic spine.</description>
+    <descriptionHyperlinks><ThingDef>SimpleProstheticSpine</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>SimpleProstheticSpine</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.85</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartProstheticMakeableBase">
+    <defName>SimpleProstheticSpine</defName>
+    <label>prosthetic spine</label>
+    <description>A leg prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real leg.</description>
+    <descriptionHyperlinks><RecipeDef>InstallSimpleProstheticLeg</RecipeDef></descriptionHyperlinks>
+    <costList>
+      <Steel>40</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <Mass>8</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>InstallSimpleProstheticSpine</defName>
+    <label>install prosthetic spine</label>
+    <description>Install a prosthetic spine.</description>
+    <descriptionHyperlinks>
+      <ThingDef>SimpleProstheticSpine</ThingDef>
+      <HediffDef>SimpleProstheticSpine</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing prosthetic spine.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SimpleProstheticSpine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SimpleProstheticSpine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>SimpleProstheticSpine</addsHediff>
+  </RecipeDef>
