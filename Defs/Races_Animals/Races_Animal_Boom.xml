@@ -8,7 +8,7 @@
 		<description>A medium sized semi-aquatic mammal, which only comes ashore to eat, mate and escape from predators. Being an aggresive hunter, seals are capable of tackling much bigger prey and are known for cannibalism if the food is scarce. This specimen seems to have developed large sac of volatile chemicals on its body</description>
 		<statBases>
 			<MoveSpeed>2.2</MoveSpeed>
-			<MarketValue>200</MarketValue>
+			<MarketValue>250</MarketValue>
 			<ComfyTemperatureMin>-70</ComfyTemperatureMin>
 			<ComfyTemperatureMax>20</ComfyTemperatureMax>
 			<FilthRate>4</FilthRate>
