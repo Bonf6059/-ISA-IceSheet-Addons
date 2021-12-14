@@ -73,7 +73,7 @@
       <lifeExpectancy>10</lifeExpectancy>
       <wildness>0.2</wildness>
       <petness>0.35</petness>
-			<nuzzleMtbHours>240</nuzzleMtbHours>
+      <nuzzleMtbHours>30</nuzzleMtbHours>
       <trainability>Intermediate</trainability>
       <lifeStageAges>
         <li>
