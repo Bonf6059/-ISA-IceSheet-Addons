@@ -231,4 +231,65 @@
     <jobString>Removing plasteel claw.</jobString>
     <removesHediff>PlasteelClaw</removesHediff>
   </RecipeDef>
+
+    <!-- Brain Spike--> 
+<HediffDef ParentName="AddedBodyPartBase">
+    <defName>ISA_TortureBrainSpike</defName>
+    <label>brain spike</label>
+    <labelNoun>a brain spike</labelNoun>
+    <description>An installed brain spike.</description>
+    <descriptionHyperlinks><ThingDef>ISA_TortureBrainSpike</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>ISA_TortureBrainSpike</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.5</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartProstheticMakeableBase">
+    <defName>ISA_TortureBrainSpike</defName>
+    <label>brain spike</label>
+    <description>A spike that is stuck in your brain. It impares most cognitive processes.</description>
+    <descriptionHyperlinks><RecipeDef>ISA_InstallTortureBrainSpike</RecipeDef></descriptionHyperlinks>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <statBases>
+      <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>ISA_InstallTortureBrainSpike</defName>
+    <label>install brain spike</label>
+    <description>Install a brain spike.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ISA_TortureBrainSpike</ThingDef>
+      <HediffDef>ISA_TortureBrainSpike</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing brain spike.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ISA_TortureBrainSpike</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ISA_TortureBrainSpike</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ISA_TortureBrainSpike</addsHediff>
+  </RecipeDef>
+
 </Defs>
