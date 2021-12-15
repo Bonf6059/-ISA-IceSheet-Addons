@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    
     <ThingDef ParentName="BuildingBase">
     <defName>ISA_NuclearGenerator</defName>
     <label>Nuclear generator</label>
@@ -81,3 +82,4 @@
     </researchPrerequisites>
     <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
   </ThingDef>
+</Defs>
