@@ -30,7 +30,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>6.5</hatcherDaystoHatch>
+        <hatcherDaystoHatch>0.5</hatcherDaystoHatch>
         <hatcherPawn>ISA_Puffin</hatcherPawn>
       </li>
     </comps>
@@ -54,6 +54,27 @@
     </graphicData>
   </ThingDef>
   
+<!-- Gigapede -->
+  <ThingDef ParentName="EggFertBase">
+    <defName>ISA_EggGigapedeFertilized</defName>
+    <label>gigapede egg (fert.)</label>
+    <description>A fertilized gigapede egg. If all goes well, it should hatch into a baby gigapede. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(245,245,245)</color>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.02</Nutrition>
+      <MarketValue>3.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>0.5</hatcherDaystoHatch>
+        <hatcherPawn>ISA_Gigapede</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+	
   <!-- Gigaspider -->
   <ThingDef ParentName="EggFertBase">
     <defName>ISA_EggGigaspiderFertilized</defName>
@@ -69,7 +90,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>5</hatcherDaystoHatch>
+        <hatcherDaystoHatch>0.5</hatcherDaystoHatch>
         <hatcherPawn>ISA_Gigaspider</hatcherPawn>
       </li>
     </comps>
@@ -113,28 +134,6 @@
     </thingCategories>
   </ThingDef>
   
- <!-- Gigascarab -->
-  <ThingDef ParentName="EggFertBase">
-    <defName>ISA_EggGigascarabFertilized</defName>
-    <label>gigascarab egg (fert.)</label>
-    <description>A fertilized gigascarab egg. If all goes well, it should hatch into a baby gigaspider. It can be eaten raw, but it's much better cooked.</description>
-    <graphicData>
-      <color>(245,245,245)</color>
-      <drawSize>1.2</drawSize>
-    </graphicData>
-    <statBases>
-      <Nutrition>0.03</Nutrition>
-      <MarketValue>2.0</MarketValue>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>3</hatcherDaystoHatch>
-        <hatcherPawn>ISA_Gigascarab</hatcherPawn>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  
   <!-- Gigabeetle -->
   <ThingDef ParentName="EggFertBase">
     <defName>ISA_EggGigabeetleFertilized</defName>
@@ -150,7 +149,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>7</hatcherDaystoHatch>
+        <hatcherDaystoHatch>0.5</hatcherDaystoHatch>
         <hatcherPawn>ISA_Gigascarab</hatcherPawn>
       </li>
     </comps>
