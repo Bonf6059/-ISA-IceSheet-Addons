@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+<Patch>
 
 <!-- Core rimworld patches -->
   
   <!-- Armor Insulation patches -->
   
 <Operation Class="PatchOperationReplace">
-  <xpath>/Defs/ThingDef[defName="ApparelArmorReconBase"]/statBases</xpath>
+  <xpath>/Defs/ThingDef[@defName="ApparelArmorReconBase"]/statBases/Insulation_Cold</xpath>
   <value>
     <Insulation_Cold>46</Insulation_Cold>
   </value>
@@ -14,7 +14,7 @@
   
 
 <Operation Class="PatchOperationReplace">
-  <xpath>/Defs/ThingDef[defName="ApparelArmorPowerBase"]/statBases</xpath>
+  <xpath>/Defs/ThingDef[@defName="ApparelArmorPowerBase"]/statBases/Insulation_Cold</xpath>
   <value>
     <Insulation_Cold>50</Insulation_Cold>
   </value>
@@ -24,37 +24,29 @@
   
   <!-- Armor Insulation patches --> 
   
-<Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-        <li Class="PatchOperationTest">
-            <xpath>/Defs/ThingDef[defName = "ApparelArmorCataphractBase"]/statBases/Insulation_Cold</xpath>
-            <success>Invert</success>
-        </li>
-        <li Class="PatchOperationReplace">
-            <xpath>/Defs/ThingDef[defName = "ApparelArmorCataphractBase"]/statBases</xpath>
+<Operation Class="PatchOperationFindMod">     <!-- Find mod/dlc to patch -->
+  <mods>
+    <li>Ludeon.Rimworld.Royalty</li>
+  </mods>
+  <match Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorCataphractBase"]/Insulation_Cold</xpath>
             <value>
-                <Insulation_Cold>100</Insulation_Cold>
+              <Insulation_Cold>100</Insulation_Cold>
             </value>
-        </li>
-    </operations>
-</Operation>
+  </match>
+  </Operation>
   
   <!-- Psycast patches -->
   
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-        <li Class="PatchOperationTest">
-            <xpath>/Defs/ThingDef[defName = "SolarPinhole"]/comps/overlightRadius</xpath>
-            <success>Invert</success>
-        </li>
-        <li Class="PatchOperationAdd">
-            <xpath>/Defs/ThingDef[defName = "SolarPinhole"]/comps</xpath>
+  <Operation Class="PatchOperationFindMod">     <!-- Find mod/dlc to patch -->
+  <mods>
+    <li>Ludeon.Rimworld.Royalty</li>
+  </mods>
+  <match Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "SolarPinhole"]/comps</xpath>
             <value>
-                <overlightRadius>7.0</overlightRadius>
+              <overlightRadius>7.0</overlightRadius>
             </value>
-        </li>
-    </operations>
-</Operation>
-</Defs>
+  </match>
+  </Operation>
+</Patch>
