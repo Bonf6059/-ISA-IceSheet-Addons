@@ -30,129 +30,6 @@
   <!-- ====================================================== -->
 
   <ThingDef ParentName="ISA_Insect">
-    <defName>ISA_Gigascarab</defName>
-    <label>gigascarab</label>
-    <description>A large, genetically-engineered beetle. Once the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
-    <statBases>
-      <MoveSpeed>3.75</MoveSpeed>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
-      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
-      <MarketValue>100</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
-    </statBases>
-    <uiIconScale>2</uiIconScale>
-    <tools>
-      <li>
-        <label>mandibles</label>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>5</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>4</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.1</chanceFactor>
-      </li>
-    </tools>
-    <race>
-      <body>BeetleLike</body>
-      <baseBodySize>0.2</baseBodySize>
-      <baseHungerRate>0.10</baseHungerRate>
-      <baseHealthScale>0.4</baseHealthScale>
-      <useMeatFrom>Megaspider</useMeatFrom>
-      <lifeExpectancy>10</lifeExpectancy>
-      <wildness>0.2</wildness>
-      <petness>0.35</petness>
-      <nuzzleMtbHours>30</nuzzleMtbHours>
-      <trainability>Intermediate</trainability>
-      <lifeStageAges>
-        <li>
-          <def>EusocialInsectLarva</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
-        </li>
-        <li>
-          <def>EusocialInsectAdult</def>
-          <minAge>0.4</minAge>
-          <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
-          <soundDeath>Pawn_Megascarab_Death</soundDeath>
-          <soundCall>Pawn_Megascarab_Call</soundCall>
-          <soundAngry>Pawn_Megascarab_Angry</soundAngry>
-        </li>
-      </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-    </race>
-    <tradeTags>
-      <li>AnimalInsect</li>
-    </tradeTags>
-  </ThingDef>
-  
-  <PawnKindDef ParentName="AnimalKindBase">
-    <defName>ISA_Gigascarab</defName>
-    <label>gigascarab</label>
-    <race>ISA_Gigascarab</race>
-    <combatPower>40</combatPower>
-    <canArriveManhunter>false</canArriveManhunter>
-    <ecoSystemWeight>0.15</ecoSystemWeight>
-    <lifeStages>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megascarab/Megascarab</texPath>
-          <drawSize>1</drawSize>
-          <color>(114,107,84)</color>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megascarab/Dessicated_Megascarab</texPath>
-          <drawSize>1</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megascarab/Megascarab</texPath>
-          <drawSize>1.25</drawSize>
-          <color>(114,107,84)</color>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megascarab/Dessicated_Megascarab</texPath>
-          <drawSize>1.25</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megascarab/Megascarab</texPath>
-          <drawSize>1.5</drawSize>
-          <color>(114,107,84)</color>
-          <shadowData>
-            <volume>(0.2, 0.3, 0.2)</volume>
-            <offset>(0,0,0)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megascarab/Dessicated_Megascarab</texPath>
-          <drawSize>1.5</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-    </lifeStages>
-  </PawnKindDef>
-  
-  <!-- ====================================================== -->
-
-  <ThingDef ParentName="ISA_Insect">
     <defName>ISA_Gigapede</defName>
     <label>gigapede</label>
     <description>A medium-sized bioengineered insectoid the size of a sheep. The spelopede is the middle caste of a hive, taking care of most work tasks as well as fighting with its digging claws. It's dangerous in combat, but slow on open ground.</description>
@@ -170,6 +47,12 @@
         <milkDef>InsectJelly</milkDef>
         <milkIntervalDays>0.5</milkIntervalDays>
         <milkAmount>6</milkAmount>
+      </li>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>ISA_EggGigapedeFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>3</eggLayIntervalDays>
+        <eggCountRange>1</eggCountRange>
       </li>
     </comps>
     <tools>
@@ -299,6 +182,12 @@
         <woolDef>ISA_Spidersilk</woolDef>
         <shearIntervalDays>0.5</shearIntervalDays>
         <woolAmount>23</woolAmount>
+      </li>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>ISA_EggGigaspiderFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>3</eggLayIntervalDays>
+        <eggCountRange>1</eggCountRange>
       </li>
     </comps>
     <tools>
@@ -491,6 +380,12 @@
 		</customAmountToDig>
 		<ticksToDig>60000</ticksToDig>
 	</li>
+        <li Class="CompProperties_EggLayer">
+          <eggFertilizedDef>ISA_EggGigabeetleFertilized</eggFertilizedDef>
+          <eggFertilizationCountMax>1</eggFertilizationCountMax>
+          <eggLayIntervalDays>3</eggLayIntervalDays>
+          <eggCountRange>1</eggCountRange>
+        </li>
   </comps>
     <tools>
       <li>
