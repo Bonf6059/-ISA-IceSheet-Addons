@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!-- Core rimworld patches -->
+  
+  <!-- Armor Insulation patches -->
+  
 <Operation Class="PatchOperationReplace">
   <xpath>/Defs/ThingDef[defName="ApparelArmorReconBase"]/statBases</xpath>
   <value>
@@ -16,6 +20,10 @@
   </value>
 </Operation>
   
+<!-- Royalty DLC patches -->
+  
+  <!-- Armor Insulation patches --> 
+  
 <Operation Class="PatchOperationSequence">
     <success>Always</success>
     <operations>
@@ -27,6 +35,24 @@
             <xpath>/Defs/ThingDef[defName = "ApparelArmorCataphractBase"]/statBases</xpath>
             <value>
                 <Insulation_Cold>100</Insulation_Cold>
+            </value>
+        </li>
+    </operations>
+</Operation>
+  
+  <!-- Psycast patches -->
+  
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+        <li Class="PatchOperationTest">
+            <xpath>/Defs/ThingDef[defName = "SolarPinhole"]/comps/overlightRadius</xpath>
+            <success>Invert</success>
+        </li>
+        <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName = "SolarPinhole"]/comps</xpath>
+            <value>
+                <overlightRadius>7.0</overlightRadius>
             </value>
         </li>
     </operations>
