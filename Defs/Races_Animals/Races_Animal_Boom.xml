@@ -64,6 +64,8 @@
 		</tools>
 		<race>
 			<body>ISA_SimplePinniped</body>
+			<deathActionWorkerClass>DeathActionWorker_BigExplosion</deathActionWorkerClass>
+      			<executionRange>4</executionRange>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
 			<maxPreyBodySize>0.81</maxPreyBodySize>
@@ -88,6 +90,8 @@
 			<wildBiomes>
 				<IceSheet>0.8</IceSheet>
 			</wildBiomes>
+			<manhunterOnDamageChance>0.1</manhunterOnDamageChance>
+      			<manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
 			<lifeExpectancy>12</lifeExpectancy>
 			<lifeStageAges>
 				<li>
