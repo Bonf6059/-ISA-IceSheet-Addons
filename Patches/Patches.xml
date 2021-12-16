@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="ApparelArmorReconBase"]/statBases</xpath>
+  <value>
+    <Insulation_Cold>46</Insulation_Cold>
+  </value>
+</Operation>
+  
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="ApparelArmorPowerBase"]/statBases</xpath>
+  <value>
+    <Insulation_Cold>50</Insulation_Cold>
+  </value>
+</Operation>
+  
+<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+        <li Class="PatchOperationTest">
+            <xpath>/Defs/ThingDef[defName = "ApparelArmorCataphractBase"]/statBases/Insulation_Cold</xpath>
+            <success>Invert</success>
+        </li>
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName = "ApparelArmorCataphractBase"]/statBases</xpath>
+            <value>
+                <Insulation_Cold>100</Insulation_Cold>
+            </value>
+        </li>
+    </operations>
+</Operation>
+</Defs>
