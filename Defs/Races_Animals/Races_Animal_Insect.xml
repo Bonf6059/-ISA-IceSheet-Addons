@@ -1,34 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="ISA_Insect">
-    <devNote>insect</devNote>
-    <statBases>
-      <ToxicSensitivity>0</ToxicSensitivity>
-      <ComfyTemperatureMax>60</ComfyTemperatureMax>
-    </statBases>
-    <comps>
-	<li Class="AnimalBehaviours.CompProperties_AcidImmunity">		
-	</li>			
-    </comps>
-    <race>
-      <fleshType>Insectoid</fleshType>
-      <bloodDef>Filth_BloodInsect</bloodDef>
-      <meatColor>(160,168,139)</meatColor>
-      <meatMarketValue>0.5</meatMarketValue>
-      <foodType>OmnivoreAnimal, AnimalProduct</foodType>
-      <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
-    </race>
-    <ingredient>
-      <mergeCompatibilityTags>
-        <li MayRequire="Ludeon.RimWorld.Ideology">InsectMeat</li>
-      </mergeCompatibilityTags>
-    </ingredient>
-    <receivesSignals>true</receivesSignals>
-  </ThingDef>
-
-  <!-- ====================================================== -->
-
   <ThingDef ParentName="ISA_Insect">
     <defName>ISA_Gigapede</defName>
     <label>gigapede</label>
@@ -53,6 +24,8 @@
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>3</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
+      </li>
+      <li Class="AnimalBehaviours.CompProperties_AcidImmunity">		
       </li>
     </comps>
     <tools>
@@ -188,6 +161,8 @@
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>3</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
+      </li>
+      <li Class="AnimalBehaviours.CompProperties_AcidImmunity">		
       </li>
     </comps>
     <tools>
@@ -386,6 +361,8 @@
           <eggLayIntervalDays>3</eggLayIntervalDays>
           <eggCountRange>1</eggCountRange>
         </li>
+        <li Class="AnimalBehaviours.CompProperties_AcidImmunity">		
+	</li>
   </comps>
     <tools>
       <li>
