@@ -42,7 +42,7 @@
   <mods>
     <li>Ludeon.Rimworld.Royalty</li>
   </mods>
-  <match Class="PatchOperationAdd">
+  <match Class="PatchOperationInsert">
     <xpath>/Defs/ThingDef[defName = "SolarPinhole"]/comps</xpath>
             <value>
               <overlightRadius>7.0</overlightRadius>
