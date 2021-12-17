@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="ISA_Insect">
+  <ThingDef ParentName="BaseInsect">
     <defName>ISA_Gigapede</defName>
     <label>gigapede</label>
     <description>A medium-sized bioengineered insectoid the size of a sheep. The spelopede is the middle caste of a hive, taking care of most work tasks as well as fighting with its digging claws. It's dangerous in combat, but slow on open ground.</description>
@@ -137,7 +137,7 @@
   
   <!-- ====================================================== -->
 
-  <ThingDef ParentName="ISA_Insect">
+  <ThingDef ParentName="BaseInsect">
     <defName>ISA_Gigaspider</defName>
     <label>gigaspider</label>
     <description>Not actually a spider, the megaspider is a genetically-engineered giant insectoid the size of a bear. Designed for heavy work and combat, its thick chitinous armor makes it hard to kill, while its long ripper-blades make it deadly at close quarters. It is, however, quite slow in open terrain.</description>
@@ -274,7 +274,7 @@
 
   <!-- ====================================================== -->
 
-  <ThingDef ParentName="ISA_Insect">
+  <ThingDef ParentName="BaseInsect">
     <defName>ISA_Gigabeetle</defName>
     <label>gigabeetle</label>
     <description>Not actually a spider, the megaspider is a genetically-engineered giant insectoid the size of a bear. Designed for heavy work and combat, its thick chitinous armor makes it hard to kill, while its long ripper-blades make it deadly at close quarters. It is, however, quite slow in open terrain.</description>
