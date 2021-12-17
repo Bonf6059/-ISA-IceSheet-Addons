@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+    <!-- Caravan -->
+    
 <TraderKindDef>
     <defName>ISA_Caravan_EssentialsSupplier</defName>
     <label>essentials supplier</label>
-
     <stockGenerators>
+        
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>2500~4500</countRange>
@@ -79,11 +81,14 @@
     </stockGenerators>
   </TraderKindDef>
     
+    <!-- Orbital -->
+    
   <TraderKindDef>
-    <defName>ISA_Caravan_ArcticSupplier</defName>
-    <label>zoological trader</label>
-
+    <defName>ISA_Orbital_EssentialsSupplier</defName>
+    <label>essentials supplier</label>
+    <orbital>true</orbital>
     <stockGenerators>
+        
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>2500~4500</countRange>
