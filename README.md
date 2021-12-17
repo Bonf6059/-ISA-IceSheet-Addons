@@ -10,6 +10,4 @@ This mod depend on vanilla expanded framework made by the vanilla expanded team;
 
 - add chemfuel cooler
 
-- add patch power armor (comfortable temperature 175/-175)
-
 - add armored warm clothes
