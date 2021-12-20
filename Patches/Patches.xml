@@ -30,4 +30,12 @@
             </value>
   </match>
   </Operation>
+  
+  <!-- Add trade caravan to factions -->
+<Operation Class="PatchOperationAdd"
+  <xpath>/Defs/FactionDef/[defName="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+    <value>
+      <li>ISA_Caravan_EssentialsSupplier</li>
+    </value>
+</Operation>
 </Patch>
