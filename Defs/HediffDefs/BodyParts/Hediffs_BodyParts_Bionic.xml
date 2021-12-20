@@ -15,7 +15,7 @@
           <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
           <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
           <ArmorRating_Heat>0.05</ArmorRating_Heat>
-		      <ComfyTemperatureMin>-36</ComfyTemperatureMin>
+          <ComfyTemperatureMin>-36</ComfyTemperatureMin>
         </statOffsets>
       </li>
     </stages>
@@ -26,6 +26,11 @@
     <label>insulated skin</label>
     <description>This small patch of artificial skin quickly spreads to cover the user's body. Insulated skin implants provides significant temperature insulation and a bit of extra protection. It looks and feels like natural flesh, but is more resistent to cold temperature. Its common between the arctic dwellers.</description>
     <descriptionHyperlinks><RecipeDef>ISA_InstallInsulatedSkin</RecipeDef></descriptionHyperlinks>
+    <costList>
+      <Steel>50</Steel>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
     <statBases>
       <MarketValue>930</MarketValue>
       <Mass>0.3</Mass>
@@ -91,7 +96,7 @@
           <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
           <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
           <ArmorRating_Heat>0.1</ArmorRating_Heat>
-		      <ComfyTemperatureMax>14</ComfyTemperatureMax>
+	  <ComfyTemperatureMax>14</ComfyTemperatureMax>
         </statOffsets>
       </li>
     </stages>
@@ -102,6 +107,11 @@
     <label>layered skin</label>
     <description>This small patch of artificial skin quickly spreads to cover the user's body. Layered skin resists pressure changes and provides significant armor and a bit of temperature insulation. It is harder to damage than steel. Even if it is harmed, it repairs itself over time.</description>
     <descriptionHyperlinks><RecipeDef>ISA_InstallLayeredSkin</RecipeDef></descriptionHyperlinks>
+    <costList>
+      <Steel>50</Steel>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
     <statBases>
       <MarketValue>1350</MarketValue>
       <Mass>0.3</Mass>
