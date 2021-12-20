@@ -31,11 +31,11 @@
   </match>
   </Operation>
   
-  <!-- Add trade caravan to factions -->
-<Operation Class="PatchOperationAdd"
-  <xpath>/Defs/FactionDef/[defName="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+  <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
     <value>
-      <li>ISA_Caravan_EssentialsSupplier</li>
+    <li>ISA_Caravan_ArtificialBodyParts</li>
     </value>
-</Operation>
+  </Operation>
 </Patch>
