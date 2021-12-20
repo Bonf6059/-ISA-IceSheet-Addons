@@ -21,7 +21,7 @@
     </stages>
   </HediffDef>
 
-  <ThingDef ParentName="AddedBodyPartBase">
+  <ThingDef ParentName="BodyPartBionicBase">
     <defName>ISA_InsulatedSkin</defName>
     <label>insulated skin</label>
     <description>This small patch of artificial skin quickly spreads to cover the user's body. Insulated skin implants provides significant temperature insulation and a bit of extra protection. It looks and feels like natural flesh, but is more resistent to cold temperature. Its common between the arctic dwellers.</description>
@@ -97,7 +97,7 @@
     </stages>
   </HediffDef>
 
-  <ThingDef ParentName="AddedBodyPartBase">
+  <ThingDef ParentName="BodyPartBionicBase">
     <defName>ISA_LayeredSkin</defName>
     <label>layered skin</label>
     <description>This small patch of artificial skin quickly spreads to cover the user's body. Layered skin resists pressure changes and provides significant armor and a bit of temperature insulation. It is harder to damage than steel. Even if it is harmed, it repairs itself over time.</description>
