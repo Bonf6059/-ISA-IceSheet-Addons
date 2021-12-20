@@ -4,7 +4,7 @@
   <ThingDef ParentName="ApparelBase">
     <defName>ISA_Apparel_InsulatingShieldBelt</defName>
     <label>insulating shield belt</label>
-    <description>A projectile-repulsion device. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP.</description>
+    <description>A projectile-repulsion device. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat even if it gives a bonus to insulation. It prevents the wearer from firing out, and shuts down instantly if hit by EMP. It's slightly better than a normal shield belt</description>
     <thingClass>ShieldBelt</thingClass>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/ShieldBelt/ShieldBelt</texPath>
