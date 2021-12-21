@@ -38,4 +38,15 @@
     <li>ISA_Caravan_ArtificialBodyParts</li>
     </value>
   </Operation>
+
+  <!-- Add ISA insectoid to hives -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[Name="Hive"]/comps/CompProperties_SpawnerPawn/spawnablePawnKinds</xpath>
+    <value>
+      <li>ISA_Gigapede</li>
+      <li>ISA_Gigaspider</li>
+      <li>ISA_Gigabeetle</li>
+    </value>
+  </Operation>
+
 </Patch>
