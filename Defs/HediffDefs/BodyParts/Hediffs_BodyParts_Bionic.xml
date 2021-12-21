@@ -27,9 +27,9 @@
     <description>This small patch of artificial skin quickly spreads to cover the user's body. Insulated skin implants provides significant temperature insulation and a bit of extra protection. It looks and feels like natural flesh, but is more resistent to cold temperature. Its common between the arctic dwellers.</description>
     <descriptionHyperlinks><RecipeDef>ISA_InstallInsulatedSkin</RecipeDef></descriptionHyperlinks>
     <costList>
-      <Steel>50</Steel>
+      <Steel>40</Steel>
       <Plasteel>15</Plasteel>
-      <ComponentSpacer>5</ComponentSpacer>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <statBases>
       <MarketValue>930</MarketValue>
