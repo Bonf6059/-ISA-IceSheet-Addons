@@ -150,7 +150,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>0.5</hatcherDaystoHatch>
-        <hatcherPawn>ISA_Gigascarab</hatcherPawn>
+        <hatcherPawn>ISA_Gigabeetle</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
