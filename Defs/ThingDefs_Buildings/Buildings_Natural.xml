@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="BuildingNaturalBase">
+<ThingDef ParentName="BuildingBase">
     <defName>ISA_ArtificialHive</defName>
     <label>artificial hive</label>
     <description>A hive of giant insects. If activated, it will spawn additional insects and hives over time, as well as valuable insect jelly.</description>
     <designationCategory>Furniture</designationCategory>
     <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>
-      <li>BuildingsFurniture</li>
+      <li>BuildingsProduction</li>
     </thingCategories>
     <graphicData>
       <texPath>Things/Building/Natural/Hive</texPath>
