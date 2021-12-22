@@ -23,11 +23,15 @@
   <mods>
     <li>Ludeon.Rimworld.Royalty</li>
   </mods>
-  <match Class="PatchOperationInsert">
-    <xpath>/Defs/ThingDef[defName = "SolarPinhole"]/comps</xpath>
-            <value>
-              <overlightRadius>7.0</overlightRadius>
-            </value>
+  <match Class="PatchOperationReplace">   <!-- Guarda la mod more [fsf] psycastpowers per problemi -->
+				<xpath>/Defs/ThingDef[defName = "SolarPinhole"]/comps/li[@Class = "CompProperties_Glower"]</xpath>
+				<value>
+					<li Class="CompProperties_Glower">
+						<overlightRadius>7.0</overlightRadius>
+						<glowRadius>15</glowRadius>
+						<glowColor>(370,370,370,0)</glowColor>
+					</li>
+				</value>
   </match>
   </Operation>
   
