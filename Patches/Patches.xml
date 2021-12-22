@@ -24,14 +24,14 @@
     <li>Ludeon.Rimworld.Royalty</li>
   </mods>
   <match Class="PatchOperationReplace">   <!-- Guarda la mod more [fsf] psycastpowers per problemi -->
-				<xpath>/Defs/ThingDef[defName = "SolarPinhole"]/comps/li[@Class = "CompProperties_Glower"]</xpath>
-				<value>
-					<li Class="CompProperties_Glower">
-						<overlightRadius>7.0</overlightRadius>
-						<glowRadius>15</glowRadius>
-						<glowColor>(370,370,370,0)</glowColor>
-					</li>
-				</value>
+    <xpath>/Defs/ThingDef[defName = "SolarPinhole"]/comps/li[@Class = "CompProperties_Glower"]</xpath>
+      <value>
+     	<li Class="CompProperties_Glower">
+     		<overlightRadius>7.0</overlightRadius>
+     		<glowRadius>15</glowRadius>
+     		<glowColor>(370,370,370,0)</glowColor>
+     	</li>
+      </value>
   </match>
   </Operation>
   
@@ -45,7 +45,7 @@
 
   <!-- Add ISA insectoid to hives -->
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[Name="Hive"]/comps/CompProperties_SpawnerPawn/spawnablePawnKinds</xpath>
+    <xpath>/Defs/ThingDef[Name="Hive"]/comps/li[@Class = "CompProperties_SpawnerPawn"]/spawnablePawnKinds</xpath>
     <value>
       <li>ISA_Gigapede</li>
       <li>ISA_Gigaspider</li>
