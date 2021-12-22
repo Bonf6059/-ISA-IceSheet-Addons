@@ -45,6 +45,7 @@
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath>
       <layers>
         <li>Shell</li>
+        <li>Middle</li>
       </layers>
       <tags>
         <li>IndustrialBasic</li>
