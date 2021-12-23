@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Royalty DLC patches -->
+  
+  <!-- Armor Insulation patches --> 
+  
+<Operation Class="PatchOperationFindMod">     <!-- Find mod/dlc to patch -->
+  <mods>
+    <li>Ludeon.Rimworld.Royalty</li>
+  </mods>
+  <match Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorCataphractBase"]/Insulation_Cold</xpath>
+            <value>
+              <Insulation_Cold>100</Insulation_Cold>
+            </value>
+  </match>
+  </Operation>
+  
+  <!-- Psycast patches -->
+  
+  <Operation Class="PatchOperationFindMod">     <!-- Find mod/dlc to patch -->
+  <mods>
+    <li>Ludeon.Rimworld.Royalty</li>
+  </mods>
+  <match Class="PatchOperationReplace">   <!-- Guarda la mod more [fsf] psycastpowers per problemi -->
+    <xpath>/Defs/ThingDef[defName = "SolarPinhole"]/comps/li[@Class = "CompProperties_Glower"]</xpath>
+      <value>
+     	<li Class="CompProperties_Glower">
+     		<overlightRadius>7.0</overlightRadius>
+     		<glowRadius>15</glowRadius>
+     		<glowColor>(370,370,370,0)</glowColor>
+     	</li>
+      </value>
+  </match>
+  </Operation>
+
+</Patch>
