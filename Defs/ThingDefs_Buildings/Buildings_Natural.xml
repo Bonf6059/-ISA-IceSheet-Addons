@@ -45,18 +45,12 @@
         <spawnCount>10</spawnCount>
         <spawnIntervalRange>26000~30000</spawnIntervalRange>
         <spawnMaxAdjacent>40</spawnMaxAdjacent>
-        <spawnForbidden>true</spawnForbidden>
+        <spawnForbidden>false</spawnForbidden>
         <saveKeysPrefix>jelly</saveKeysPrefix>
       </li>
       <li Class="CompProperties_HeatPusher">
         <heatPerSecond>6</heatPerSecond>
         <heatPushMaxTemperature>38</heatPushMaxTemperature>
-      </li>
-      <li Class="CompProperties_SpawnerFilth">
-        <filthDef>Filth_Slime</filthDef>
-        <spawnCountOnSpawn>10</spawnCountOnSpawn>
-        <spawnMtbHours>4</spawnMtbHours>
-        <spawnRadius>5</spawnRadius>
       </li>
       <li Class="CompProperties_Maintainable">
         <ticksHealthy>60000</ticksHealthy>
