@@ -52,11 +52,6 @@
         <heatPerSecond>6</heatPerSecond>
         <heatPushMaxTemperature>38</heatPushMaxTemperature>
       </li>
-      <li Class="CompProperties_Maintainable">
-        <ticksHealthy>60000</ticksHealthy>
-        <ticksNeedsMaintenance>60000</ticksNeedsMaintenance>
-        <damagePerTickRare>10</damagePerTickRare>
-      </li>
     </comps>
     <techLevel>Neolithic</techLevel>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
