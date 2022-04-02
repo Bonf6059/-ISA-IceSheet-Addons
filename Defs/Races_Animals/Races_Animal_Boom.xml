@@ -30,7 +30,7 @@
 				</capacities>
 				<power>9.4</power>
 				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>ISA_ForeFlipers</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>AEXP_ForeFlipers</linkedBodyPartsGroup>
 			</li>
 			<li>
 				<label>right fore-flipper</label>
@@ -39,7 +39,7 @@
 				</capacities>
 				<power>9.4</power>
 				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>ISA_ForeFlipers</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>AEXP_ForeFlipers</linkedBodyPartsGroup>
 			</li>
 			<li>
 				<capacities>
