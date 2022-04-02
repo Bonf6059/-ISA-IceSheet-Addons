@@ -88,6 +88,7 @@
 				</points>
 			</litterSizeCurve>
 			<wildBiomes>
+				<SeaIce>0.2</SeaIce>
 				<IceSheet>0.8</IceSheet>
 			</wildBiomes>
 			<manhunterOnDamageChance>0.1</manhunterOnDamageChance>
