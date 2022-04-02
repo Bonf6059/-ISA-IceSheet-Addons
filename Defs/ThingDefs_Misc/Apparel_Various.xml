@@ -29,7 +29,7 @@
     <statBases>
       <MaxHitPoints>280</MaxHitPoints>
       <WorkToMake>12000</WorkToMake>
-      <Mass>6</Mass>
+      <Mass>5</Mass>
       <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
@@ -54,7 +54,7 @@
         <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
