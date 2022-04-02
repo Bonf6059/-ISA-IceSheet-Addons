@@ -63,7 +63,7 @@
 			</li>
 		</tools>
 		<race>
-			<body>ISA_SimplePinniped</body>
+			<body>AEXP_SimplePinniped</body>
 			<deathActionWorkerClass>DeathActionWorker_BigExplosion</deathActionWorkerClass>
       			<executionRange>4</executionRange>
 			<herdAnimal>false</herdAnimal>
@@ -74,7 +74,7 @@
 			<baseHealthScale>0.7</baseHealthScale>
 			<meatLabel>pinniped meat</meatLabel>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-			<leatherDef>ISA_Leather_Pinniped</leatherDef>
+			<leatherDef>AEXP_Leather_Pinniped</leatherDef>
 			<wildness>0.65</wildness>
 			<petness>0.18</petness>
 			<nuzzleMtbHours>120</nuzzleMtbHours>
