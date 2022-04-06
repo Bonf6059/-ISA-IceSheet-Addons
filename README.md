@@ -11,8 +11,6 @@ FATTIBILI
 
 vegan alternatives to animal products
 
-livello tame boomrat, produce chemfuel
-
 growable ambrosia (domesticated ambrosia -> identica in tutto ma coltivabile)
 
 Arctic/Inuit/Yupik/Sirenik/Aleuti nomads (traders and [nomad?]) -> religione animismo (possibili trade?)
