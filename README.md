@@ -6,6 +6,8 @@ devil strand al buio
 venom?
 pillola placebo
 traimat
+skin pawn alive -> operazione che gli toglie la pelle lasciando cicatrici(?) riduce la temperatura minima di comfort a tipo 26 gradi e la massima a 30; aumenta il rischio di infezioni e provoca dolore extreme
+grafting skin -> operazione che usa le pelle umana per togliere le cicatrici ai pawn
 
 FATTIBILI
 
