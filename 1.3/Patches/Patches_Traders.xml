@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+    <value>
+    <li>ISA_Caravan_Entomologists_Trader</li>
+    </value>
+  </Operation>
+  
+</Patch>
