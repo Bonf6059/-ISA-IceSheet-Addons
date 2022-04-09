@@ -10,7 +10,7 @@
         
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>800~1500</countRange>
+        <countRange>300~800</countRange>
       </li>
       
       <li Class="StockGenerator_SingleDef">
@@ -19,8 +19,8 @@
       </li>
       
       <li Class="StockGenerator_SingleDef">
-        <thingDef>MedicineIndustrial</thingDef>
-        <countRange>5~20</countRange>
+        <thingDef>WoodLog</thingDef>
+        <countRange>200~300</countRange>
       </li>
       
       <li Class="StockGenerator_SingleDef">
@@ -51,97 +51,26 @@
         <thingDef>AEXP_Leather_Pinniped</thingDef>
         <countRange>-150~450</countRange>
       </li>
-      
-      <li Class="StockGenerator_Clothes">
-        <countRange>10~10</countRange>
-      </li>
-      
-      <!-- Buying -->
-      
-      <li Class="StockGenerator_BuyExpensiveSimple" />
-      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
-      
-    </stockGenerators>
-  </TraderKindDef>
-    
-    <!-- Orbital -->
-    
-  <TraderKindDef>
-    <defName>ISA_Orbital_EssentialsSupplier</defName>
-    <label>essentials supplier</label>
-    <orbital>true</orbital>
-    <stockGenerators>
         
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Silver</thingDef>
-        <countRange>2500~4500</countRange>
-      </li>
-      
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>MedicineHerbal</thingDef>
-        <countRange>10~20</countRange>
-      </li>
-      
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>MedicineIndustrial</thingDef>
-        <countRange>5~20</countRange>
-      </li>
-
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Chocolate</thingDef>
-        <countRange>-5~12</countRange>
-      </li>
-      
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Beer</thingDef>
-        <countRange>-3~6</countRange>
-      </li>
-      
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Chemfuel</thingDef>
-        <countRange>-300~150</countRange>
-      </li>
-
-      <li Class="StockGenerator_Category">
-        <categoryDef>Textiles</categoryDef>
-        <excludedThingDefs>
-          <li>Leather_Human</li>
-          <li>Leather_Patch</li>
-          <li>Synthread</li>
-          <li>Hyperweave</li>
-        </excludedThingDefs>
-        <thingDefCountRange>1~5</thingDefCountRange>
-        <totalPriceRange>100~775</totalPriceRange>
-      </li>
-      
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>ComponentIndustrial</thingDef>
-        <countRange>5~15</countRange>
-      </li>
-      
-      <li Class="StockGenerator_Category">
-        <categoryDef>FoodRaw</categoryDef>
-        <excludedCategories>
-          <li>EggsFertilized</li>
-        </excludedCategories>
-        <thingDefCountRange>3~3</thingDefCountRange>
-        <totalPriceRange>150~800</totalPriceRange>
-      </li>
-      
-      <li Class="StockGenerator_Category">
-        <categoryDef>Drugs</categoryDef>
-      </li>
-      
-      <li Class="StockGenerator_Clothes">
-        <countRange>10~10</countRange>
+      <li Class="StockGenerator_Animals">
+        <maxWildness>0.99</maxWildness>
+        <checkTemperature>true</checkTemperature>
+        <tradeTagsSell>
+          <li>AnimalCommon</li>
+          <li>AnimalUncommon</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalFighter</li>
+        </tradeTagsSell>
+        <kindCountRange>2~4</kindCountRange>
+        <countRange>2~6</countRange>
       </li>
       
       <!-- Buying -->
       
       <li Class="StockGenerator_BuyExpensiveSimple" />
-            <li Class="StockGenerator_Animals"> <!-- Buy -->
-        <maxWildness>0.99</maxWildness> <!-- If I had found this bugger sooner, I could've prevented this entire mod. -->
+      <li Class="StockGenerator_Animals">
+        <maxWildness>0.99</maxWildness> 
         <checkTemperature>true</checkTemperature>
         <tradeTagsBuy>
           <li>AnimalCommon</li>
@@ -151,7 +80,8 @@
           <li>AnimalFighter</li>
         </tradeTagsBuy>
       </li>
-      
+                  
+        
     </stockGenerators>
-  </TraderKindDef>
+  </TraderKindDef>    
 </Defs>
