@@ -2,9 +2,9 @@
 <Patch>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+    <xpath>/Defs/FactionDef[@Name="TribeBase"]/caravanTraderKinds</xpath>
     <value>
-    <li>ISA_Caravan_Entomologists_Trader</li>
+    <li>ISA_Caravan_ArcticTrader</li>
     </value>
   </Operation>
   
