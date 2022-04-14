@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>ReGrowth Remastered: Extinct Animals</li>
+    </mods>	
+	<match Class="PatchOperationSequence">
+      <operations>
+        
+        <!--========== ADD ==========-->
+	      
+	<li Class="PatchOperationAdd">
+         <xpath>/Defs/ThingDef[defName = ""]</xpath>
+         <value>
+
+         </value>		 
+        </li>
+        
+	      <!--========== REMOVE ==========-->
+        
+	<li Class="PatchOperationRemove">
+         <xpath>/Defs/ThingDef[defName = ""]</xpath>
+         <value>
+
+         </value>		 
+        </li>
+        
+        <!--========== REPLACE ==========-->
+	      
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName = "RG_Velociraptor"]/description</xpath>
+          <value>
+            <description>Meaning “swift robber”, these turkey-sized predators are fearless, flightless, feathered little bastards that can hunt creatures up to twice their size by coordinating in packs. Of particular note are their enlarged sickle-shaped claws on each hindfoot with which they kick to slash, pierce and disembowel their prey.\n\nVelociraptors typically prefer to hunt alone so as to not share their quarry, behaving similarly to birds of prey by leaping onto smaller, easier targets and gripping them in their jaws and claws. They have excellent hearing for tracking prey and are very opportunistic, scavenging on carrion during droughts, famines, or general periods of poor health.</description>      
+          </value>		 
+        </li>
+        
+      </operations>	  
+    </match>		  
+  </Operation>
+</Patch>
