@@ -26,10 +26,12 @@
 	      <!--========== REMOVE ==========-->
         
 	<li Class="PatchOperationRemove">
-         <xpath>/Defs/ThingDef[defName = ""]</xpath>
+         <xpath>/Defs/ThingDef[defName = "RG_Velociraptor"]/comps</xpath>
          <value>
-
-         </value>		 
+           <li Class="AnimalBehaviours.CompProperties_FixedGender"
+	     <gender>Female</gender>
+	   </li>
+	 </value>		 
         </li>
         
         <!--========== REPLACE ==========-->
