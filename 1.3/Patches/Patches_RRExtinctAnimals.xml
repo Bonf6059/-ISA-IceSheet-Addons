@@ -12,7 +12,7 @@
 	<li Class="PatchOperationAdd">
          <xpath>/Defs/ThingDef[defName = "ISA_Caravan_ArcticTrader"]//</xpath>
          <value>
-
+	   <li>AnimalExtinct</li>
          </value>		 
         </li>
         
