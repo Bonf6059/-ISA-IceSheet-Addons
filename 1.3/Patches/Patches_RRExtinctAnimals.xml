@@ -9,13 +9,6 @@
         
         <!--========== ADD ==========-->
 	<li Class="PatchOperationAdd">
-         <xpath>/Defs/ThingDef[defName = "ISA_Caravan_ArcticTrader"]/StockGenerator_Animals/tradeTagsBuy</xpath>
-         <value>
-	   <li>AnimalExtinct</li>
-         </value>		 
-        </li>
-	      
-	<li Class="PatchOperationAdd">
          <xpath>/Defs/ThingDef[defName = "RG_ArcticDrak"]/comps</xpath>
          <value>
            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
