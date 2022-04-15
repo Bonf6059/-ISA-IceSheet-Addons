@@ -112,8 +112,8 @@
 	<li Class="PatchOperationRemove">
          <xpath>/Defs/ThingDef[defName = "RG_Velociraptor"]/comps</xpath>
          <value>
-           <li Class="AnimalBehaviours.CompProperties_FixedGender"
-	     <gender>Female</gender>
+           <li Class="AnimalBehaviours.CompProperties_FixedGender">
+	     <gender>female</gender>
 	   </li>
 	 </value>		 
         </li>
