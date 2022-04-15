@@ -10,7 +10,7 @@
         <!--========== ADD ==========-->
 	      
 	<li Class="PatchOperationAdd">
-         <xpath>/Defs/ThingDef[defName = ""]</xpath>
+         <xpath>/Defs/ThingDef[defName = "ISA_Caravan_ArcticTrader"]//</xpath>
          <value>
 
          </value>		 
