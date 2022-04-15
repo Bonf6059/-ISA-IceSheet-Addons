@@ -10,7 +10,7 @@
         
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>300~800</countRange>
+        <countRange>700~1000</countRange>
       </li>
       
       <li Class="StockGenerator_SingleDef">
@@ -25,17 +25,17 @@
       
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chemfuel</thingDef>
-        <countRange>-300~150</countRange>
+        <countRange>-300~75</countRange>
       </li>
 
       <li Class="StockGenerator_SingleDef">
         <thingDef>Leather_Heavy</thingDef>
-        <countRange>-150~450</countRange>
+        <countRange>300~700</countRange>
       </li>
       
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-        <countRange>5~15</countRange>
+        <countRange>5~10</countRange>
       </li>
       
       <li Class="StockGenerator_Category">
@@ -62,7 +62,7 @@
           <li>AnimalPet</li>
           <li>AnimalFighter</li>
         </tradeTagsSell>
-        <kindCountRange>2~4</kindCountRange>
+        <kindCountRange>0~4</kindCountRange>
         <countRange>2~6</countRange>
       </li>
       
