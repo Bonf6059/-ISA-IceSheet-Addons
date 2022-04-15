@@ -24,6 +24,17 @@
         </li>
 	      
 	<li Class="PatchOperationAdd">
+         <xpath>/Defs/ThingDef[defName = "RG_ArcticDrak"]/comps</xpath>
+         <value>
+           <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+             <isFrostmite>true</isFrostmite>
+	     <spawnForbidden>true</spawnForbidden>
+	     <digAnywayEveryXTicks>false</digAnywayEveryXTicks>
+	   </li>
+         </value>		 
+        </li>
+	      
+	<li Class="PatchOperationAdd">
          <xpath>/Defs/ThingDef[defName = "RG_Thrinaxodon"]/comps</xpath>
          <value>
 	   <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
