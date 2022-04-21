@@ -12,10 +12,9 @@
          <xpath>/Defs/ThingDef[defName = "RG_ArcticDrak"]/comps</xpath>
          <value>
            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
-             <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
 	     <customThingToDig>AEXP_RawFish</customThingToDig>
 	     <customAmountToDig>20</customAmountToDig>
-	   </li>	 
+           </li>	 
 	 </value>		 
         </li>
 	      
