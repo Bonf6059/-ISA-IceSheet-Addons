@@ -19,6 +19,26 @@
         </li>
 	      
 	<li Class="PatchOperationAdd">
+         <xpath>/Defs/ThingDef[defName = "RG_WoollyStegosaurus"]/comps</xpath>
+         <value>
+           <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+	     <customThingToDig>ISA_ArcticRoot</customThingToDig>
+	     <customAmountToDig>20</customAmountToDig>
+           </li>	 
+	 </value>		 
+        </li>
+	      
+	<li Class="PatchOperationAdd">
+         <xpath>/Defs/ThingDef[defName = "RG_ArcticLuizicus"]/comps</xpath>
+         <value>
+           <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+	     <customThingToDig>ISA_ArcticRoot</customThingToDig>
+	     <customAmountToDig>20</customAmountToDig>
+           </li>	 
+	 </value>		 
+        </li>
+	      
+	<li Class="PatchOperationAdd">
          <xpath>/Defs/ThingDef[defName = "RG_Thrinaxodon"]/comps</xpath>
          <value>
 	   <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
