@@ -6,7 +6,7 @@
     <label>arctic root</label>
     <description>The root of a plant in a deep slumber waiting for a favorable weather to sprout once again</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Honey/Honey</texPath>
+      <texPath>Things/Item/Resource/ISA_ArcticRoot/ISA_ArcticRoot</texPath>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
