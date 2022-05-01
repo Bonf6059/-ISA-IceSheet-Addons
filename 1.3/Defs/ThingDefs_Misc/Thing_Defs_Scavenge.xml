@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>ISA_ArcticRoot</defName>
+    <label>arctic root</label>
+    <description>The root of a plant in a deep slumber waiting for a favorable weather to sprout once again</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Honey/Honey</texPath>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>0.36</MarketValue>
+      <Mass>0.020</Mass>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.9</Flammability>
+      <Nutrition>0.13</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.04</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <foodType>VegetableOrFruit</foodType>
+      <optimalityOffsetFeedingAnimals>15</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+    </ingestible>
+    <thingCategories>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>
