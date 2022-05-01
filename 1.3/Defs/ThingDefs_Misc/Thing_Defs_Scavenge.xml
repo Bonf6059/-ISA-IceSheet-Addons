@@ -23,9 +23,6 @@
       <optimalityOffsetFeedingAnimals>15</optimalityOffsetFeedingAnimals>
       <ingestEffect>EatVegetarian</ingestEffect>
     </ingestible>
-    <thingCategories>
-      <li>PlantFoodRaw</li>
-    </thingCategories>
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>30</daysToRotStart>
