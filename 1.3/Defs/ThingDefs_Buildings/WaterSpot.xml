@@ -13,7 +13,6 @@
     </graphicData>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
     <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
-    <bridge>false</bridge>
     <statBases>
       <WorkToBuild>0</WorkToBuild>
       <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
