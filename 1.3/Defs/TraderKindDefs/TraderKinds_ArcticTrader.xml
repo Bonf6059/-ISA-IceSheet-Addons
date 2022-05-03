@@ -25,12 +25,27 @@
       
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chemfuel</thingDef>
-        <countRange>-300~75</countRange>
+        <countRange>-300~175</countRange>
       </li>
 
       <li Class="StockGenerator_SingleDef">
         <thingDef>Leather_Heavy</thingDef>
         <countRange>300~700</countRange>
+      </li>
+        
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Leather_Bear</thingDef>
+        <countRange>300~700</countRange>
+      </li>
+        
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Leather_Light</thingDef>
+        <countRange>150~250</countRange>
+      </li>
+        
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Leather_Bird</thingDef>
+        <countRange>200~400</countRange>
       </li>
       
       <li Class="StockGenerator_SingleDef">
