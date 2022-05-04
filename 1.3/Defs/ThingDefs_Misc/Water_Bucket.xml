@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>ISA_Water_Bucket</defName>
+    <label>water bucket</label>
+    <description>Bucket of water</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/ISA_ArcticRoot/ISA_ArcticRoot</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <Mass>0.05</Mass>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>
