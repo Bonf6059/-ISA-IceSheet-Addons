@@ -17,6 +17,10 @@
         <shearIntervalDays>15</shearIntervalDays>
         <woolAmount>120</woolAmount>
       </li>
+      <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+	<customThingToDig>ISA_ArcticRoot</customThingToDig>
+	<customAmountToDig>20</customAmountToDig>
+      </li>
     </comps>
     <race>
       <herdAnimal>true</herdAnimal>
@@ -34,9 +38,9 @@
       <lifeExpectancy>20</lifeExpectancy>
       <manhunterOnDamageChance>0.2</manhunterOnDamageChance>
       <wildBiomes>
-				<SeaIce>0.2</SeaIce>
-				<IceSheet>0.8</IceSheet>
-			</wildBiomes>
+	<SeaIce>0.25</SeaIce>
+	<IceSheet>0.6</IceSheet>
+      </wildBiomes>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
