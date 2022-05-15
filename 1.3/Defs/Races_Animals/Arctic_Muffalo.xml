@@ -35,7 +35,7 @@
       <gestationPeriodDays>6.66</gestationPeriodDays>
       <wildness>0.65</wildness>
       <roamMtbDays>2</roamMtbDays>
-      <trainability>Intermediate</trainability>
+      <trainability>None</trainability>
       <packAnimal>true</packAnimal>
       <lifeExpectancy>20</lifeExpectancy>
       <manhunterOnDamageChance>0.2</manhunterOnDamageChance>
