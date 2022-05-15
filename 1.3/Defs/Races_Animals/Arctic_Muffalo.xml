@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
   <ThingDef ParentName="AnimalThingBase">
     <defName>ISA_Muffalo</defName>
     <label>arctic muffalo</label>
-    <devNote>cow-1</devNote>
     <description>A large herding herbivore descended from buffalo and adapted for cold environments. While enraged arctic muffalo are deadly, tamed arctic muffalo are quite docile and can be used as pack animals.\n\nNobody is quite sure why they're blue - it might even be some early genetic modification test that just never got changed.</description>
     <statBases>
       <MoveSpeed>4.5</MoveSpeed>
@@ -33,7 +35,7 @@
       <gestationPeriodDays>6.66</gestationPeriodDays>
       <wildness>0.65</wildness>
       <roamMtbDays>2</roamMtbDays>
-      <trainability>Intermidiat</trainability>
+      <trainability>Intermediate</trainability>
       <packAnimal>true</packAnimal>
       <lifeExpectancy>20</lifeExpectancy>
       <manhunterOnDamageChance>0.2</manhunterOnDamageChance>
@@ -164,3 +166,4 @@
       </li>
     </lifeStages>
   </PawnKindDef>
+</Defs>
