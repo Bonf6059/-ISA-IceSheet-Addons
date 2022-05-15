@@ -110,7 +110,7 @@
     </tools>
   </ThingDef>
 
-  <PawnKindDef Name="ISA_Muffalo" ParentName="AnimalKindBase">
+  <PawnKindDef ParentName="AnimalKindBase">
     <defName>ISA_Muffalo</defName>
     <label>arctic muffalo</label>
     <race>ISA_Muffalo</race>
