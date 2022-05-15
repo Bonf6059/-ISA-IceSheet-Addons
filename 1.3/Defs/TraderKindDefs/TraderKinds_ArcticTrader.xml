@@ -34,6 +34,11 @@
       </li>
         
       <li Class="StockGenerator_SingleDef">
+        <thingDef>Leather_Bluefur</thingDef>
+        <countRange>300~700</countRange>
+      </li>
+        
+      <li Class="StockGenerator_SingleDef">
         <thingDef>Leather_Bear</thingDef>
         <countRange>300~700</countRange>
       </li>
