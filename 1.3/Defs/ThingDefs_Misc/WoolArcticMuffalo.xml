@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="WoolBase">
-    <defName>WoolMuffalo</defName>
-    <label>muffalo wool</label>
+    <defName>WoolArcticMuffalo</defName>
+    <label>arctic muffalo wool</label>
     <description>Soft, light and provides very good insulation. Muffalo wool clothes can keep the body warm even in very cold conditions.</description>
     <statBases>
       <StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
