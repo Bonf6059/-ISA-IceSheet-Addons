@@ -33,6 +33,10 @@
       <packAnimal>true</packAnimal>
       <lifeExpectancy>20</lifeExpectancy>
       <manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+      <wildBiomes>
+				<SeaIce>0.2</SeaIce>
+				<IceSheet>0.8</IceSheet>
+			</wildBiomes>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
