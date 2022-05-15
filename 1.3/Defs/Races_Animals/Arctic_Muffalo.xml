@@ -66,8 +66,7 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>AnimalCommon</li>
-      <li>AnimalFarm</li>
+      <li>AnimalUncommon</li>
     </tradeTags>
     <tools>
       <li>
