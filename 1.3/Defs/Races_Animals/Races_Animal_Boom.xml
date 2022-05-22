@@ -295,7 +295,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ISA_Boomaseal/ISA_Boomaseal</texPath>
+					<texPath>Things/Pawn/Animal/ISA_Neutroseal/ISA_Neutroseal</texPath>
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -305,7 +305,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ISA_Boomaseal/ISA_Boomaseal</texPath>
+					<texPath>Things/Pawn/Animal/ISA_Neutroseal/ISA_Neutroseal</texPath>
 					<drawSize>1.25</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -315,7 +315,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ISA_Boomaseal/ISA_Boomaseal</texPath>
+					<texPath>Things/Pawn/Animal/ISA_Neutroseal/ISA_Neutroseal</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.35, 0.4, 0.3)</volume>
