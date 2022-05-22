@@ -120,10 +120,10 @@
     <wildGroupSize>3~9</wildGroupSize>
     <lifeStages>
       <li>
-        <label>muffalo calf</label>
-        <labelPlural>muffalo calves</labelPlural>
+        <label>arctic muffalo calf</label>
+        <labelPlural>arctic muffalo calves</labelPlural>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/Muffalo</texPath>
+          <texPath>Things/Pawn/Animal/Arctic_Muffalo/ArcticMuffalo</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
@@ -137,7 +137,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/Muffalo</texPath>
+          <texPath>Things/Pawn/Animal/Arctic_Muffalo/ArcticMuffalo</texPath>
           <drawSize>2.25</drawSize>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
@@ -151,7 +151,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/Muffalo</texPath>
+          <texPath>Things/Pawn/Animal/Arctic_Muffalo/ArcticMuffalo</texPath>
           <drawSize>3</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
