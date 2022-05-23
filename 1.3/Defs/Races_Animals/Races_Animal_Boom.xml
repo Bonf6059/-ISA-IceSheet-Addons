@@ -289,7 +289,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>ISA_Neutroseal</defName>
 		<label>neutroseal</label>
-		<race>ISA_neutroseal</race>
+		<race>ISA_Neutroseal</race>
 		<combatPower>65</combatPower>
 		<ecoSystemWeight>0.40</ecoSystemWeight>
 		<lifeStages>
