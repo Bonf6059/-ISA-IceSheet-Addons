@@ -62,7 +62,7 @@
   <label>raw fish</label> 
   <description>Raw fish.</description> 
   <graphicData> 
-  <texPath>Things/Item/Resource/ISA_Fish/ISA_Fish</texPath> 
+  <texPath>Things/Item/Resource/ISA_Fish</texPath> 
  <graphicClass>Graphic_StackCount</graphicClass> 
   </graphicData> 
   <statBases> 
